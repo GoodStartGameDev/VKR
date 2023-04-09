@@ -52,3 +52,10 @@ C:\Users\Иван\Desktop\УЧЕБА\ДИПЛОМ\opencvc#\WinFormsApp1\WinForms
 C:\Users\Иван\Desktop\УЧЕБА\ДИПЛОМ\opencvc#\WinFormsApp1\WinFormsApp1\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
 C:\Users\Иван\Desktop\УЧЕБА\ДИПЛОМ\opencvc#\WinFormsApp1\WinFormsApp1\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp3.1\System.Drawing.Common.dll
 C:\Users\Иван\Desktop\УЧЕБА\ДИПЛОМ\opencvc#\WinFormsApp1\WinFormsApp1\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\Иван\Desktop\УЧЕБА\ДИПЛОМ\opencvc#\WinFormsApp1\WinFormsApp1\bin\Debug\net5.0-windows\Emgu.CV.Bitmap.dll
+C:\Users\Иван\Desktop\УЧЕБА\ДИПЛОМ\opencvc#\WinFormsApp1\WinFormsApp1\obj\Debug\net5.0-windows\WinFormsApp1.csproj.CopyComplete
+C:\Users\Иван\Desktop\УЧЕБА\ДИПЛОМ\opencvc#\WinFormsApp1\WinFormsApp1\bin\Debug\net5.0-windows\Google.Apis.dll
+C:\Users\Иван\Desktop\УЧЕБА\ДИПЛОМ\opencvc#\WinFormsApp1\WinFormsApp1\bin\Debug\net5.0-windows\Google.Apis.Auth.PlatformServices.dll
+C:\Users\Иван\Desktop\УЧЕБА\ДИПЛОМ\opencvc#\WinFormsApp1\WinFormsApp1\bin\Debug\net5.0-windows\Google.Apis.Auth.dll
+C:\Users\Иван\Desktop\УЧЕБА\ДИПЛОМ\opencvc#\WinFormsApp1\WinFormsApp1\bin\Debug\net5.0-windows\Google.Apis.Core.dll
+C:\Users\Иван\Desktop\УЧЕБА\ДИПЛОМ\opencvc#\WinFormsApp1\WinFormsApp1\bin\Debug\net5.0-windows\Google.Apis.Drive.v3.dll
