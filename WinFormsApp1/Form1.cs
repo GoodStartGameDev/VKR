@@ -24,6 +24,8 @@ using Emgu.CV.Face;
 using Emgu.CV.Stitching;
 using Emgu.CV.Dnn;
 
+using YandexDiskNET;
+
 namespace WinFormsApp1
 {
     public partial class Form1 : Form
@@ -31,18 +33,18 @@ namespace WinFormsApp1
         string fileName;
         Processing processing_class = new Processing(); // IS IT OKAY?
         Import importFile = new Import();
+
+        // bool IsRunning = true;
+
         public Form1()
         {
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        public void button1_Click(object sender, EventArgs e)
         {
 
-        }
-        public void button1_Click(object sender, EventArgs e) 
-        {
-            processing_class.Process(pictureBox1, fileName);
+            processing_class.Process(pictureBox1, fileName, checkBox1);
             label2.Text = "YOLO DONE!";
         }
 
@@ -50,14 +52,15 @@ namespace WinFormsApp1
         {
             fileName = importFile.Import_file();
             //processing_class.ShowImport(pictureBox1, fileName);
-            label1.Text = "Imported: "+fileName;
+            label1.Text = "Imported: " + fileName;
             label2.Text = "";
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            DownloadFile downloadFile = new DownloadFile();
-            DownloadFile.DriveDownloadFile("https://drive.google.com/file/d/1v8brGFHvLidP-0WiTqyPadY--BrYKHuJ/view?usp=share_link");
+            // DownloadFile downloadFile = new DownloadFile();
+            //DownloadFile.DriveDownloadFile("https://drive.google.com/file/d/1v8brGFHvLidP-0WiTqyPadY--BrYKHuJ/view?usp=share_link");
+            importFile.buttonTest_Click(textBox1, progressBar1);
         }
     }
 }

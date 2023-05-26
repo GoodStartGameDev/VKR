@@ -59,3 +59,8 @@ C:\Users\Иван\Desktop\УЧЕБА\ДИПЛОМ\opencvc#\WinFormsApp1\WinForms
 C:\Users\Иван\Desktop\УЧЕБА\ДИПЛОМ\opencvc#\WinFormsApp1\WinFormsApp1\bin\Debug\net5.0-windows\Google.Apis.Auth.dll
 C:\Users\Иван\Desktop\УЧЕБА\ДИПЛОМ\opencvc#\WinFormsApp1\WinFormsApp1\bin\Debug\net5.0-windows\Google.Apis.Core.dll
 C:\Users\Иван\Desktop\УЧЕБА\ДИПЛОМ\opencvc#\WinFormsApp1\WinFormsApp1\bin\Debug\net5.0-windows\Google.Apis.Drive.v3.dll
+C:\Users\Иван\Desktop\УЧЕБА\ДИПЛОМ\opencvc#\WinFormsApp1\WinFormsApp1\obj\Debug\net5.0-windows\WinFormsApp1.Properties.Resources.resources
+C:\Users\Иван\Desktop\УЧЕБА\ДИПЛОМ\opencvc#\WinFormsApp1\WinFormsApp1\bin\Debug\net5.0-windows\System.Net.Http.Formatting.dll
+C:\Users\Иван\Desktop\УЧЕБА\ДИПЛОМ\opencvc#\WinFormsApp1\WinFormsApp1\bin\Debug\net5.0-windows\Newtonsoft.Json.Bson.dll
+C:\Users\Иван\Desktop\УЧЕБА\ДИПЛОМ\opencvc#\WinFormsApp1\WinFormsApp1\bin\Debug\net5.0-windows\YandexDiskNET.dll
+C:\Users\Иван\Desktop\УЧЕБА\ДИПЛОМ\opencvc#\WinFormsApp1\WinFormsApp1\bin\Debug\net5.0-windows\Получить код подтверждения.exe

@@ -12,6 +12,9 @@ using Google.Apis.Drive.v3;
 using Google.Apis.Services;
 using Google.Apis.Download;
 
+using YandexDiskNET;
+
+
 namespace WinFormsApp1
 {
     // Class to demonstrate use-case of drive's download file.
@@ -101,7 +104,31 @@ namespace WinFormsApp1
             { tfileName = openFileDialog1.FileName; }
             return tfileName;
         }
-        
 
+        public async void buttonTest_Click(TextBox textBox, ProgressBar progressBar)
+        {
+            string oauth = "y0_AgAAAABLox37AAn22QAAAADj_Usy-ORM0OOFTS2K2U2d4mErxcZDQZE";
+            string sourceFileName = "1.jpg";
+            string destFileName = @"C:\VKR\1.jpg";
+            //https://github.com/GoodStartGameDev/VKR#access_token=y0_AgAAAABLox37AAn22QAAAADj_Usy-ORM0OOFTS2K2U2d4mErxcZDQZE&token_type=bearer&expires_in=31535989
+
+            YandexDiskRest disk = new YandexDiskRest(oauth);
+
+            var err = await disk.DownloadResourceAcync(sourceFileName, destFileName, SetProgressChange(progressBar));
+            if (err.Message == null)
+                textBox.Text += string.Format("Success downloaded {0}", Path.GetFileName(sourceFileName)) + "\r\n";
+            else
+                textBox.Text += string.Format(err.Message) + "\r\n";
+
+          
+        }
+
+        //progress view for win form
+        public Progress<double> SetProgressChange(ProgressBar progressBar)
+        {
+            Progress<double> progressChange = new Progress<double>();
+            progressChange.ProgressChanged += (send, value) => progressBar.Value = (int)value;
+            return progressChange;
+        }
     }
 }

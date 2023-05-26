@@ -1,4 +1,4 @@
-﻿using Emgu.CV;
+using Emgu.CV;
 using Emgu.CV.Features2D;
 using Emgu.CV.Structure;
 using Emgu.CV.Util;
@@ -26,7 +26,6 @@ namespace WinFormsApp1
 {
     class Processing
     {
-        bool condition=true;
         public static List<float[]> ArrayTo2DList(Array array)
         {
             System.Collections.IEnumerator enumerator = array.GetEnumerator();
@@ -50,62 +49,52 @@ namespace WinFormsApp1
         {
             int imgDefaultSizeWidth = pictureBox1.Width;
             int imgDefaultSizeHeight = pictureBox1.Height;
-            if (!(fileName.ToLower().EndsWith(".mp4") || fileName.ToLower().EndsWith(".mov") || fileName.ToLower().EndsWith(".avi") || fileName.ToLower().EndsWith(".wmv") || fileName.ToLower().EndsWith(".mkv") || fileName.ToLower().EndsWith(".flv")))
+            if (!fileName.EndsWith(".mp4")) 
             { 
                 Image<Bgr, byte> img = new Image<Bgr, byte>(fileName).Resize(imgDefaultSizeWidth, imgDefaultSizeHeight, Inter.Cubic);  // SIZE?
                 pictureBox1.Image = img.ToBitmap();
             }
         }
-        private void ChangeCondition_Click(object sender, EventArgs e)
+        public void Process(PictureBox pictureBox1, string fileName)
         {
-            condition = !condition;
-        }
-      
-        public void Process(PictureBox pictureBox1, string fileName, CheckBox checkBox)
-        {
+            //OpenCvSharp.VideoCapture capture = null;
+            // String win1 = "Image"; //The name of the window
+            // CvInvoke.NamedWindow(win1); //Create the window using the specific name
+
             VectorOfRect bboxes = new VectorOfRect(); // перенёс
             VectorOfFloat scores = new VectorOfFloat();
             VectorOfInt indices = new VectorOfInt();
+
             Net model = DnnInvoke.ReadNet("1_last_new2.weights", "1.cfg");
 
             List<string> classes = File.ReadAllLines("classes.txt").ToList();
 
             int imgDefaultSize = 416;
-            Mat blob1 = null;
             
-            if (fileName.ToLower().EndsWith(".mp4")|| fileName.ToLower().EndsWith(".mov") || fileName.ToLower().EndsWith(".avi") || fileName.ToLower().EndsWith(".wmv") || fileName.ToLower().EndsWith(".mkv") || fileName.ToLower().EndsWith(".flv"))
+            
+
+            if (fileName.EndsWith(".mp4"))
             {
                 VideoCapture capture = new VideoCapture(fileName);
-                checkBox.Visible = true;
                 // Loop through the frames of the video
-                while (checkBox.Checked)
+                while (true)
                 {
-                  
                     // Read the next frame from the video
-                    //Mat img = capture.QueryFrame();
-                    Mat img = new Mat();
-                    capture.Read(img);
+                    Mat img = capture.QueryFrame();
+                    //Mat img = new Mat();
+                   // capture.Read(img);
 
                     // If the frame is null, we've reached the end of the video
                     if (img == null)
                     {
                         break;
                     }
-                  
-                    try 
-                    { 
+                    //Image<Bgr, byte> img = frame.ToImage<Bgr,byte>().Resize(imgDefaultSize, imgDefaultSize, Inter.Cubic);
+                   
+                    
                     // Create a 4D blob from the frame and set it as the input to the DNN
-                    blob1 = DnnInvoke.BlobFromImage(img, 1 / 255.0, new Size(416,416), new MCvScalar(0, 0, 0), swapRB: true, crop: false);
-                    }
-                    catch (Exception ex)
-                    {
-                        checkBox.Checked = false;
-                        capture.Dispose();
-                        Application.DoEvents();
-                        pictureBox1.Image = null;
-                        checkBox.Visible = false;
-                        break;
-                    }
+                    Mat blob1 = DnnInvoke.BlobFromImage(img, 1 / 255.0, new Size(416,416), new MCvScalar(0, 0, 0), swapRB: true, crop: false);
+
 
 
                     // Extract the detected objects from the output
@@ -113,6 +102,7 @@ namespace WinFormsApp1
                     VectorOfMat vectorOfMat = new VectorOfMat();
                     model.Forward(vectorOfMat, model.UnconnectedOutLayersNames);
 
+                    // отсюда перенёс
                     for (int k = 0; k < vectorOfMat.Size; k++)
                     {
                         var mat = vectorOfMat[k];
@@ -145,53 +135,35 @@ namespace WinFormsApp1
                     var idx = DnnInvoke.NMSBoxes(bboxes.ToArray(), scores.ToArray(), 0.1f, 0.3f); // Точность
 
                     var imgOutput = img.Clone();
-                   
                     for (int i = 0; i < idx.Length; i++)
                     {
                         int index = idx[i];
                         var bbox = bboxes[index];
-                        imgOutput.ToImage<Bgr, byte>().Draw(bbox, new Bgr(0, 255, 0), 3);
-                
+                        imgOutput.ToImage<Bgr,byte>().Draw(bbox, new Bgr(0, 255, 0), 2);
                         CvInvoke.PutText(imgOutput, classes[indices[index]], new System.Drawing.Point(bbox.X, bbox.Y + 20),
                             FontFace.HersheySimplex, 0.7, new MCvScalar(0, 0, 255), 1);
-                       
                     }
-                   
-                   pictureBox1.Image = imgOutput.ToBitmap() ;
-                    Application.DoEvents();
-                    if (!checkBox.Checked)
-                    { 
-                        capture.Dispose();
-                        Application.DoEvents();
-                        pictureBox1.Image = null;
-                        checkBox.Visible = false;
-                        break;
-                    }
-                       
+
+                    pictureBox1.Image = imgOutput.ToBitmap() ;
+                    
                 }
 
-            
+              
+
                 // Release the VideoCapture object and close the window
                 capture.Dispose();
                 CvInvoke.DestroyAllWindows();
             }
             else 
             {
-                Image<Bgr, byte> img = null;
-                try { 
-               img = new Image<Bgr, byte>(fileName).Resize(imgDefaultSize, imgDefaultSize, Inter.Cubic);// для фото  test(1-15)
-                }
-                catch (Exception ex)
-                {
-                    return;
-                }
-
+                Image<Bgr, byte> img = new Image<Bgr, byte>(fileName).Resize(imgDefaultSize, imgDefaultSize, Inter.Cubic);// для фото  test(1-15)
                 var blob = DnnInvoke.BlobFromImage(img, 1 / 255.0, swapRB: true, crop: false);
 
                 model.SetInput(blob);
                 VectorOfMat vectorOfMat = new VectorOfMat();
                 model.Forward(vectorOfMat, model.UnconnectedOutLayersNames);
 
+                // отсюда перенёс
                 for (int k = 0; k < vectorOfMat.Size; k++)
                 {
                     var mat = vectorOfMat[k];
@@ -233,9 +205,8 @@ namespace WinFormsApp1
                     CvInvoke.PutText(imgOutput, classes[indices[index]], new System.Drawing.Point(bbox.X, bbox.Y + 20),
                         FontFace.HersheySimplex, 0.7, new MCvScalar(0, 0, 255), 1);
                 }
-                imgOutput = imgOutput.Resize(782,555, Inter.Cubic);
-                pictureBox1.Image = imgOutput.ToBitmap();
 
+                pictureBox1.Image = imgOutput.ToBitmap();
             }
         }
             //Bitmap bitmap = new Bitmap(pictureBox1.Image);
