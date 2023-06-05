@@ -44,8 +44,8 @@ namespace WinFormsApp1
         public void button1_Click(object sender, EventArgs e)
         {
 
-            processing_class.Process(pictureBox1, fileName, checkBox1);
-            label2.Text = "YOLO DONE!";
+            processing_class.Process(pictureBox, fileName, checkBox_proccessing, listBox_found_objects, label3);
+            label_proccessing.Text = "YOLO DONE!";
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -53,14 +53,19 @@ namespace WinFormsApp1
             fileName = importFile.Import_file();
             //processing_class.ShowImport(pictureBox1, fileName);
             label1.Text = "Imported: " + fileName;
-            label2.Text = "";
+            label_proccessing.Text = "";
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             // DownloadFile downloadFile = new DownloadFile();
             //DownloadFile.DriveDownloadFile("https://drive.google.com/file/d/1v8brGFHvLidP-0WiTqyPadY--BrYKHuJ/view?usp=share_link");
-            importFile.buttonTest_Click(textBox1, progressBar1);
+            importFile.buttonTest_Click(label_download_from_cloud);
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

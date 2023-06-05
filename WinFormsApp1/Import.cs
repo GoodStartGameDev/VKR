@@ -105,7 +105,7 @@ namespace WinFormsApp1
             return tfileName;
         }
 
-        public async void buttonTest_Click(TextBox textBox, ProgressBar progressBar)
+        public async void buttonTest_Click(Label label)
         {
             string oauth = "y0_AgAAAABLox37AAn22QAAAADj_Usy-ORM0OOFTS2K2U2d4mErxcZDQZE";
             string sourceFileName = "1.jpg";
@@ -114,11 +114,11 @@ namespace WinFormsApp1
 
             YandexDiskRest disk = new YandexDiskRest(oauth);
 
-            var err = await disk.DownloadResourceAcync(sourceFileName, destFileName, SetProgressChange(progressBar));
+            var err = await disk.DownloadResourceAcync(sourceFileName, destFileName);
             if (err.Message == null)
-                textBox.Text += string.Format("Success downloaded {0}", Path.GetFileName(sourceFileName)) + "\r\n";
+                label.Text = string.Format("Success downloaded \n{0}", Path.GetFileName(sourceFileName)) + "\r\n";
             else
-                textBox.Text += string.Format(err.Message) + "\r\n";
+                label.Text = string.Format(err.Message) + "\r\n";
 
           
         }
