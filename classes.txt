@@ -1,0 +1,10 @@
+pothole
+sign
+tram_sign
+bus_sign
+crosswalk
+red
+green
+down
+up
+metro

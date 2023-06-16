@@ -28,7 +28,7 @@ using YandexDiskNET;
 
 namespace WinFormsApp1
 {
-    public partial class Form1 : Form
+    public partial class YOLO : Form
     {
         string fileName;
         Processing processing_class = new Processing(); // IS IT OKAY?
@@ -36,7 +36,7 @@ namespace WinFormsApp1
 
         // bool IsRunning = true;
 
-        public Form1()
+        public YOLO()
         {
             InitializeComponent();
         }
@@ -63,10 +63,6 @@ namespace WinFormsApp1
             importFile.buttonTest_Click(label_download_from_cloud);
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }
     

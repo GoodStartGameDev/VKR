@@ -1,7 +1,7 @@
 ﻿
 namespace WinFormsApp1
 {
-    partial class Form1
+    partial class YOLO
     {
         /// <summary>
         ///  Required designer variable.
@@ -143,7 +143,7 @@ namespace WinFormsApp1
             this.label_download_from_cloud.Size = new System.Drawing.Size(0, 20);
             this.label_download_from_cloud.TabIndex = 13;
             // 
-            // Form1
+            // YOLO
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -158,9 +158,8 @@ namespace WinFormsApp1
             this.Controls.Add(this.pictureBox);
             this.Controls.Add(this.btn_import);
             this.Controls.Add(this.btn_Processing);
-            this.Name = "Form1";
-            this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Name = "YOLO";
+            this.Text = "YOLO";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
