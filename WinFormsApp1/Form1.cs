@@ -41,28 +41,31 @@ namespace WinFormsApp1
             InitializeComponent();
         }
 
-        public void button1_Click(object sender, EventArgs e)
+        public void btn_Processing_Click(object sender, EventArgs e)
         {
-
-            processing_class.Process(pictureBox, fileName, checkBox_proccessing, listBox_found_objects, label3);
-            label_proccessing.Text = "YOLO DONE!";
+            processing_class.Process(pictureBox, fileName, checkBox_proccessing, listBox_found_objects, label_found_objects);
+            //label_proccessing.Text = "YOLO DONE!";
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void btn_import_Click(object sender, EventArgs e)
         {
             fileName = importFile.Import_file();
             //processing_class.ShowImport(pictureBox1, fileName);
-            label1.Text = "Imported: " + fileName;
+            label_file_imported.Text = "Imported: " + fileName;
             label_proccessing.Text = "";
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void btn_cloud_import_Click(object sender, EventArgs e)
         {
             // DownloadFile downloadFile = new DownloadFile();
             //DownloadFile.DriveDownloadFile("https://drive.google.com/file/d/1v8brGFHvLidP-0WiTqyPadY--BrYKHuJ/view?usp=share_link");
             importFile.buttonTest_Click(label_download_from_cloud);
         }
 
+        private void button_save_processed_image_Click(object sender, EventArgs e)
+        {
+            processing_class.Save_Processed_Image(pictureBox.Image);
+        }
     }
 }
     

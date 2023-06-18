@@ -33,12 +33,13 @@ namespace WinFormsApp1
             this.btn_import = new System.Windows.Forms.Button();
             this.pictureBox = new System.Windows.Forms.PictureBox();
             this.btn_cloud_import = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.label_file_imported = new System.Windows.Forms.Label();
             this.label_proccessing = new System.Windows.Forms.Label();
             this.checkBox_proccessing = new System.Windows.Forms.CheckBox();
             this.listBox_found_objects = new System.Windows.Forms.ListBox();
-            this.label3 = new System.Windows.Forms.Label();
+            this.label_found_objects = new System.Windows.Forms.Label();
             this.label_download_from_cloud = new System.Windows.Forms.Label();
+            this.button_save_processed_image = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
             this.SuspendLayout();
             // 
@@ -51,7 +52,7 @@ namespace WinFormsApp1
             this.btn_Processing.TabIndex = 0;
             this.btn_Processing.Text = "Обработка";
             this.btn_Processing.UseVisualStyleBackColor = true;
-            this.btn_Processing.Click += new System.EventHandler(this.button1_Click);
+            this.btn_Processing.Click += new System.EventHandler(this.btn_Processing_Click);
             // 
             // btn_import
             // 
@@ -62,7 +63,7 @@ namespace WinFormsApp1
             this.btn_import.TabIndex = 2;
             this.btn_import.Text = "Импорт";
             this.btn_import.UseVisualStyleBackColor = true;
-            this.btn_import.Click += new System.EventHandler(this.button2_Click);
+            this.btn_import.Click += new System.EventHandler(this.btn_import_Click);
             // 
             // pictureBox
             // 
@@ -84,15 +85,15 @@ namespace WinFormsApp1
             this.btn_cloud_import.TabIndex = 4;
             this.btn_cloud_import.Text = "Загрузка из облака";
             this.btn_cloud_import.UseVisualStyleBackColor = true;
-            this.btn_cloud_import.Click += new System.EventHandler(this.button3_Click);
+            this.btn_cloud_import.Click += new System.EventHandler(this.btn_cloud_import_Click);
             // 
-            // label1
+            // label_file_imported
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(44, 14);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 20);
-            this.label1.TabIndex = 5;
+            this.label_file_imported.AutoSize = true;
+            this.label_file_imported.Location = new System.Drawing.Point(44, 14);
+            this.label_file_imported.Name = "label_file_imported";
+            this.label_file_imported.Size = new System.Drawing.Size(0, 20);
+            this.label_file_imported.TabIndex = 5;
             // 
             // label_proccessing
             // 
@@ -126,13 +127,14 @@ namespace WinFormsApp1
             this.listBox_found_objects.Size = new System.Drawing.Size(150, 104);
             this.listBox_found_objects.TabIndex = 11;
             // 
-            // label3
+            // label_found_objects
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(868, 420);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(0, 20);
-            this.label3.TabIndex = 12;
+            this.label_found_objects.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label_found_objects.AutoSize = true;
+            this.label_found_objects.Location = new System.Drawing.Point(832, 390);
+            this.label_found_objects.Name = "label_found_objects";
+            this.label_found_objects.Size = new System.Drawing.Size(0, 20);
+            this.label_found_objects.TabIndex = 12;
             // 
             // label_download_from_cloud
             // 
@@ -143,17 +145,29 @@ namespace WinFormsApp1
             this.label_download_from_cloud.Size = new System.Drawing.Size(0, 20);
             this.label_download_from_cloud.TabIndex = 13;
             // 
+            // button_save_processed_image
+            // 
+            this.button_save_processed_image.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.button_save_processed_image.Location = new System.Drawing.Point(856, 516);
+            this.button_save_processed_image.Name = "button_save_processed_image";
+            this.button_save_processed_image.Size = new System.Drawing.Size(114, 53);
+            this.button_save_processed_image.TabIndex = 14;
+            this.button_save_processed_image.Text = "Сохранить изображение";
+            this.button_save_processed_image.UseVisualStyleBackColor = true;
+            this.button_save_processed_image.Click += new System.EventHandler(this.button_save_processed_image_Click);
+            // 
             // YOLO
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1002, 608);
+            this.Controls.Add(this.button_save_processed_image);
             this.Controls.Add(this.label_download_from_cloud);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label_found_objects);
             this.Controls.Add(this.listBox_found_objects);
             this.Controls.Add(this.checkBox_proccessing);
             this.Controls.Add(this.label_proccessing);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.label_file_imported);
             this.Controls.Add(this.btn_cloud_import);
             this.Controls.Add(this.pictureBox);
             this.Controls.Add(this.btn_import);
@@ -172,12 +186,13 @@ namespace WinFormsApp1
         private System.Windows.Forms.Button btn_import;
         private System.Windows.Forms.PictureBox pictureBox;
         private System.Windows.Forms.Button btn_cloud_import;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label_file_imported;
         private System.Windows.Forms.Label label_proccessing;
         private System.Windows.Forms.CheckBox checkBox_proccessing;
         private System.Windows.Forms.ListBox listBox_found_objects;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label_found_objects;
         private System.Windows.Forms.Label label_download_from_cloud;
+        private System.Windows.Forms.Button button_save_processed_image;
     }
 }
 

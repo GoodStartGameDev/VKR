@@ -94,15 +94,15 @@ namespace WinFormsApp1
     {
         public String Import_file()
         {
-            string tfileName="";
             OpenFileDialog openFileDialog1 = new OpenFileDialog();
             openFileDialog1.Title = "Select file";
             openFileDialog1.InitialDirectory = "C:\\VKR"; // заглушка ;
             openFileDialog1.Filter = "All files(*.*)|*.*|JPG|*.jpg|JPEG|*.jpeg|PNG|*.png|TIFF|*.tiff";
             openFileDialog1.ShowDialog();
             if (openFileDialog1.FileName != "" && openFileDialog1.CheckFileExists)
-            { tfileName = openFileDialog1.FileName; }
-            return tfileName;
+            { return openFileDialog1.FileName; }
+            else
+            return null;
         }
 
         public async void buttonTest_Click(Label label)

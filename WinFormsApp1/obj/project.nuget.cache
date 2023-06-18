@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+DoMGgfgKsIlRC2sAYRzHWOjE/e56xB/LWBif33d+tPAOKW9+gSzUN8jA+3TGNNg3lAOyCdmy/IK8v5Hucuilw==",
+  "dgSpecHash": "FvbQriAcSOT1Fn88jXDzNPaKrUFPE9gski+UOOTVlSadKJ7afun3mskzTYZ57XbPGgiGLb13+Ta5KkI6rNbrfQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Иван\\Desktop\\УЧЕБА\\ДИПЛОМ\\opencvc#\\WinFormsApp1\\VKR\\WinFormsApp1\\WinFormsApp1.csproj",
+  "projectFilePath": "C:\\Users\\Иван\\Desktop\\УЧЕБА\\ДИПЛОМ\\opencvc#\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Иван\\.nuget\\packages\\emgu.cv\\4.6.0.5131\\emgu.cv.4.6.0.5131.nupkg.sha512",
     "C:\\Users\\Иван\\.nuget\\packages\\emgu.cv.bitmap\\4.6.0.5131\\emgu.cv.bitmap.4.6.0.5131.nupkg.sha512",

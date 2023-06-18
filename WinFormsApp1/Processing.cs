@@ -24,6 +24,12 @@ using System.Drawing;
 
 namespace WinFormsApp1
 {
+    public enum FileType: byte
+    {
+        FILE_ERROR = 0,
+        FILE_PHOTO = 1,
+        FILE_VIDEO = 2
+    }
     class Processing
     {
         public static List<float[]> ArrayTo2DList(Array array)
@@ -45,6 +51,7 @@ namespace WinFormsApp1
             }
             return list;
         }
+
         public void ShowImport(PictureBox pictureBox1, string fileName)
         {
             int imgDefaultSizeWidth = pictureBox1.Width;
@@ -56,7 +63,6 @@ namespace WinFormsApp1
             }
         }
 
-
         private string Object_to_delete_from_listbox(string classes, int fr)
         {
             if (fr < 5)
@@ -66,36 +72,36 @@ namespace WinFormsApp1
             else return null;
         }
 
-        private void Delete_from_listbox(string classes, ListBox listBox1)
+        private void Delete_from_listbox(string classes, ListBox listBox_found_objects)
         {
             const string filePath = @"C:\Users\Иван\Documents\VKR\OTLADKA.txt"; // путь к файлу
             FileStream fileStream = null;
             byte[] buffer;
             if (classes != null)
             {
-                if (listBox1.Items.Contains(classes))
+                if (listBox_found_objects.Items.Contains(classes))
                 {
                     fileStream = new FileStream(filePath, FileMode.Append);
                     buffer = System.Text.Encoding.UTF8.GetBytes($"!!Объект {classes} Удалён из списка\n"); // конвертируем строку в байты
                     fileStream.Write(buffer, 0, buffer.Length); // записываем байты в файл
                     fileStream.Close();
 
-                    listBox1.Items.Remove(classes);
+                    listBox_found_objects.Items.Remove(classes);
                     Application.DoEvents();
                 }
             }
         }
 
-        private void Add_to_listbox(string classes, ListBox listBox1)
+        private void Add_to_listbox(string classes, ListBox listBox_found_objects)
         {
             const string filePath = @"C:\Users\Иван\Documents\VKR\OTLADKA.txt"; // путь к файлу
             FileStream fileStream = null;
             byte[] buffer;
             if (classes != null)
             {
-                if (!listBox1.Items.Contains(classes))
+                if (!listBox_found_objects.Items.Contains(classes))
                 {
-                    listBox1.Items.Add(classes); // нет в списке - добавить
+                    listBox_found_objects.Items.Add(classes); // нет в списке - добавить
 
                     fileStream = new FileStream(filePath, FileMode.Append);
                     buffer = System.Text.Encoding.UTF8.GetBytes($"!Объект {classes} Добавлен в список\n"); // конвертируем строку в байты
@@ -115,11 +121,12 @@ namespace WinFormsApp1
             else return null;
         }
 
-        private void Video_output(PictureBox pictureBox1, string fileName, CheckBox checkBox, ListBox listBox1, List<string> classes, Net model)
+        private void Video_output(PictureBox pictureBox1, string fileName, CheckBox checkBox, ListBox listBox_found_objects, List<string> classes, TypedReference model)
         {
             VideoCapture capture = new VideoCapture(fileName);
-            
+            TypedReference p_capture = __makeref(capture);
             Dictionary<string, int> fr = new Dictionary<string, int>();
+            checkBox.Checked = true;
             for (int i = 0; i < classes.Count(); i++)
             {
                 fr[classes[i]] = 0;         // Счётчик количества кадров, в которых объект считается найденным
@@ -127,30 +134,25 @@ namespace WinFormsApp1
 
             while (checkBox.Checked)
             {
-               // listBox1.BeginUpdate();
-                pictureBox1.Image = Video_processing(fr,capture, fileName, checkBox, listBox1, pictureBox1, classes, model);
-
+                checkBox.Visible = true;
+                pictureBox1.Image = Video_processing(fr, p_capture, fileName, listBox_found_objects, classes, model);
                 Application.DoEvents();
-               // listBox1.EndUpdate();
+            }
+            if (!checkBox.Checked)
+            {
+                pictureBox1.Image = null;
+                checkBox.Visible = false;
             }
         }
-
-        class Processing_variables
-        {
-            public VectorOfRect bboxes;
-            public VectorOfFloat scores;
-            public VectorOfInt indices;
-            public int[] idx;
-        }
-
-        private Processing_variables Deep_proccessing(Net model, Image<Bgr, byte> img, VectorOfRect bboxes, VectorOfFloat scores, VectorOfInt indices)
+       
+        unsafe private int[] Deep_proccessing(TypedReference model, TypedReference img, TypedReference bboxes, TypedReference scores, TypedReference indices)
         {
             Size new_size = new Size(416,416);
-            var blob = DnnInvoke.BlobFromImage(img, 1 / 255.0,size: new_size, swapRB: true, crop: false);
+            var blob = DnnInvoke.BlobFromImage(__refvalue(img, Image<Bgr, byte>), 1 / 255.0,size: new_size, swapRB: true, crop: false);
 
-            model.SetInput(blob);
+            __refvalue(model, Net).SetInput(blob);
             VectorOfMat vectorOfMat = new VectorOfMat();
-            model.Forward(vectorOfMat, model.UnconnectedOutLayersNames);
+            __refvalue(model, Net).Forward(vectorOfMat, __refvalue(model, Net).UnconnectedOutLayersNames);
 
             for (int k = 0; k < vectorOfMat.Size; k++)
             {
@@ -166,39 +168,45 @@ namespace WinFormsApp1
 
                     if (confidence > 0.15f)
                     {
-                        var center_x = (int)(row[0] * img.Width);
-                        var center_y = (int)(row[1] * img.Height);
+                        var center_x = (int)(row[0] * __refvalue(img, Image<Bgr, byte>).Width);
+                        var center_y = (int)(row[1] * __refvalue(img, Image<Bgr, byte>).Height);
 
-                        var width = (int)(row[2] * img.Width);
-                        var height = (int)(row[3] * img.Height);
+                        var width = (int)(row[2] * __refvalue(img, Image<Bgr, byte>).Width);
+                        var height = (int)(row[3] * __refvalue(img, Image<Bgr, byte>).Height);
 
                         var x = (int)(center_x - (width / 2));
                         var y = (int)(center_y - (height / 2));
 
-                        bboxes.Push(new Rectangle[] { new Rectangle(x, y, width, height) });
-                        indices.Push(new int[] { classId });
-                        scores.Push(new float[] { confidence });
+                        __refvalue(bboxes, VectorOfRect).Push(new Rectangle[] { new Rectangle(x, y, width, height) });
+                        __refvalue(indices, VectorOfInt).Push(new int[] { classId });
+                        __refvalue(scores, VectorOfFloat).Push(new float[] { confidence });
                     }
                 }
             }
-            var idx = DnnInvoke.NMSBoxes(bboxes.ToArray(), scores.ToArray(), 0.1f, 0.3f); // Точность
+            var idx = DnnInvoke.NMSBoxes(__refvalue(bboxes, VectorOfRect).ToArray(), __refvalue(scores, VectorOfFloat).ToArray(), 0.1f, 0.3f); // Точность
 
-            return new Processing_variables { bboxes = bboxes, scores = scores, indices = indices, idx = idx };
+            return idx;
+            //return new Processing_variables { bboxes = __refvalue(bboxes, VectorOfRect), scores = __refvalue(scores, VectorOfFloat), indices = __refvalue(indices, VectorOfInt), idx = idx };
         }
 
-        private Bitmap Video_processing(Dictionary<string, int> fr,VideoCapture capture, string fileName, CheckBox checkBox, ListBox listBox1, PictureBox pictureBox1, List<string> classes, Net model)
+        unsafe private Bitmap Video_processing(Dictionary<string, int> fr, TypedReference capture, string fileName, ListBox listBox_found_objects, List<string> classes, TypedReference model)
         {
 
             
-            checkBox.Visible = true;
-            Mat blob1 = null;
+            //checkBox.Visible = true;
+            //Mat blob1 = null;
            
             // Loop through the frames of the video
-            while (checkBox.Checked)
-            {
+            //while (checkBox.Checked)
+            //{
                 VectorOfRect bboxes = new VectorOfRect(); // перенёс из глобального объявления функции
                 VectorOfFloat scores = new VectorOfFloat();
                 VectorOfInt indices = new VectorOfInt();
+                
+
+                TypedReference p_bboxes = __makeref(bboxes);
+                TypedReference p_scores = __makeref(scores);
+                TypedReference p_indices = __makeref(indices);
 
                 const string filePath = @"C:\Users\Иван\Documents\VKR\OTLADKA.txt"; // путь к файлу
                 FileStream fileStream = null;
@@ -221,88 +229,72 @@ namespace WinFormsApp1
 
                 for (int i = 0; i < classes.Count(); i++)
                 {
-                    Delete_from_listbox(Object_to_delete_from_listbox(classes[i], fr[classes[i]]), listBox1);
+                    Delete_from_listbox(Object_to_delete_from_listbox(classes[i], fr[classes[i]]), listBox_found_objects);
                 }
 
                 // Read the next frame from the video
-                Mat img1 = capture.QueryFrame();
-                Image<Bgr, byte> img = null;
-                try
-                {
-                    //img = img1.ToImage<Bgr, byte>().Resize(416,416,Inter.Linear);
-                    img = img1.ToImage<Bgr, byte>();
-                }
-                catch (Exception ex)
-                {
-                    checkBox.Checked = false;
-                    capture.Dispose();
-                    Application.DoEvents();
-
-                    checkBox.Visible = false;
-                    return null;
-                    break;
-                }
-                // If the frame is null, we've reached the end of the video
-                if (img == null)
+                Mat img1 = __refvalue(capture, VideoCapture).QueryFrame();
+                if (img1 == null)
                 {
                     return null;
-                    break;
+                    //break;
                 }
+                Image<Bgr, byte> img = img1.ToImage<Bgr, byte>();
+               
+                TypedReference p_img=__makeref(img);
 
-                bboxes = Deep_proccessing(model, img, bboxes, scores, indices).bboxes;
-                scores = Deep_proccessing(model, img, bboxes, scores, indices).scores;
-                indices = Deep_proccessing(model, img, bboxes, scores, indices).indices;
-                var idx = Deep_proccessing(model, img, bboxes, scores, indices).idx;
+                int[] idx = Deep_proccessing(model, p_img, p_bboxes, p_scores, p_indices);
 
-                var imgOutput = img.Clone();
+                //var imgOutput = img.Clone();
 
                 for (int i = 0; i < idx.Length; i++)
                 {
                     int index = idx[i];
                     var bbox = bboxes[index];
 
-                    Application.DoEvents();
+                    //Application.DoEvents();
 
 
-                    imgOutput.Draw(bbox, new Bgr(0, 255, 0), 3);
+                    img.Draw(bbox, new Bgr(0, 255, 0), 3);
 
 
-                    CvInvoke.PutText(imgOutput, classes[indices[index]], new System.Drawing.Point(bbox.X, bbox.Y + 20),
+                    CvInvoke.PutText(img, classes[indices[index]], new System.Drawing.Point(bbox.X, bbox.Y + 20),
                                 FontFace.HersheySimplex, 0.7, new MCvScalar(0, 0, 255), 1);
                     if (fr[classes[indices[index]]] < 15) fr[classes[indices[index]]] += 2; // Увеличиваем счётчик количества кадров, в которых объект считается найденным
 
                     for (int j = 0; j < classes.Count(); j++)
                     {
-                        Add_to_listbox(Object_to_add_to_listbox(classes, indices, index, fr), listBox1);
+                        Add_to_listbox(Object_to_add_to_listbox(classes, indices, index, fr), listBox_found_objects);
                     }
 
                 }
 
-               
-                if (!checkBox.Checked)
+                /*if (!checkBox.Checked)
                 {
-                    capture.Dispose();
+                    __refvalue(capture, VideoCapture).Dispose();
                     Application.DoEvents();
-                    pictureBox1.Image = null;
+                    //pictureBox1.Image = null;
                     checkBox.Visible = false;
                     return null;
-                    break;
+                    //break;
                 }
-                Application.DoEvents();
-                return imgOutput.ToBitmap();
-            }
+                */
+                //Application.DoEvents();
+                return img.ToBitmap();
+            //}
 
             // Release the VideoCapture object and close the window
-            capture.Dispose();
-            CvInvoke.DestroyAllWindows();
-            return null;
+            //__refvalue(capture, VideoCapture).Dispose();
+            //CvInvoke.DestroyAllWindows();
+            //return null;
 
         }
 
       
-        private Bitmap Image_processing(Net model, List<string> classes, string fileName)
+        private Bitmap Image_processing(TypedReference model, List<string> classes, string fileName, TypedReference p_detected_objects)
         {
-            int imgDefaultSize = 416;
+            //int imgDefaultSize = 416;
+            
             VectorOfRect bboxes = new VectorOfRect(); // перенёс
             VectorOfFloat scores = new VectorOfFloat();
             VectorOfInt indices = new VectorOfInt();
@@ -316,55 +308,92 @@ namespace WinFormsApp1
             {
                 return null;
             }
-
-            bboxes = Deep_proccessing(model, img, bboxes, scores, indices).bboxes;
-            scores = Deep_proccessing(model, img, bboxes, scores, indices).scores;
-            indices = Deep_proccessing(model, img, bboxes, scores, indices).indices;
-            var idx = Deep_proccessing(model, img, bboxes, scores, indices).idx;
-
+            
+            TypedReference p_img = __makeref(img);
+            TypedReference p_bboxes = __makeref(bboxes);
+            TypedReference p_scores = __makeref(scores);
+            TypedReference p_indices = __makeref(indices);
+            
+            int[] idx = Deep_proccessing(model, p_img, p_bboxes, p_scores, p_indices);
             var imgOutput = img.Clone();
-
+            
             for (int i = 0; i < idx.Length; i++)
             {
                 int index = idx[i];
                 var bbox = bboxes[index];
-                imgOutput.Draw(bbox, new Bgr(0, 255, 0), 2);
-                CvInvoke.PutText(imgOutput, classes[indices[index]], new System.Drawing.Point(bbox.X, bbox.Y + 20),
-                    FontFace.HersheySimplex, 0.7, new MCvScalar(0, 0, 255), 1);
+                imgOutput.Draw(bbox, new Bgr(0, 255, 0), 3);
+               // CvInvoke.PutText(imgOutput, classes[indices[index]], new System.Drawing.Point(bbox.X, bbox.Y + 20),
+               //     FontFace.HersheySimplex, 0.7, new MCvScalar(0, 0, 255), 1);
+                __refvalue(p_detected_objects, List<string>).Add(classes[indices[index]]);
             }
             imgOutput = imgOutput.Resize(782, 555, Inter.Cubic);
             return imgOutput.ToBitmap();
         }
 
-        private byte Check_file_type(string fileName)
+        private FileType Check_file_type(string fileName)
         {
-            if (fileName.ToLower().EndsWith(".mp4") || fileName.ToLower().EndsWith(".mov") || fileName.ToLower().EndsWith(".avi") || fileName.ToLower().EndsWith(".wmv") || fileName.ToLower().EndsWith(".mkv") || fileName.ToLower().EndsWith(".flv"))
-                return 2;
-            if (fileName.ToLower().EndsWith(".jpeg") || fileName.ToLower().EndsWith(".jpg") || fileName.ToLower().EndsWith(".png") || fileName.ToLower().EndsWith(".gif") || fileName.ToLower().EndsWith(".bmp") || fileName.ToLower().EndsWith(".tiff") || fileName.ToLower().EndsWith(".psd") || fileName.ToLower().EndsWith(".raw") || fileName.ToLower().EndsWith(".cr2"))
-                return 1;
-            else return 0;
+            if (fileName == null) return FileType.FILE_ERROR;
+            if (fileName.ToLower().EndsWith(".mp4") ||
+                fileName.ToLower().EndsWith(".mov") ||
+                fileName.ToLower().EndsWith(".avi") ||
+                fileName.ToLower().EndsWith(".wmv") ||
+                fileName.ToLower().EndsWith(".mkv") ||
+                fileName.ToLower().EndsWith(".flv"))
+                return FileType.FILE_VIDEO;
+            if (fileName.ToLower().EndsWith(".jpeg") ||
+                fileName.ToLower().EndsWith(".jpg") ||
+                fileName.ToLower().EndsWith(".png") ||
+                fileName.ToLower().EndsWith(".gif") ||
+                fileName.ToLower().EndsWith(".bmp") ||
+                fileName.ToLower().EndsWith(".tiff") ||
+                fileName.ToLower().EndsWith(".psd") ||
+                fileName.ToLower().EndsWith(".raw") ||
+                fileName.ToLower().EndsWith(".cr2"))
+                return FileType.FILE_PHOTO;
+            else return FileType.FILE_ERROR;
         }
-    public void Process(PictureBox pictureBox1, string fileName, CheckBox checkBox, ListBox listBox1, Label label3)
-    {
+
+    public void Save_Processed_Image(Image img)
+        {
+            if (img != null)
+            {
+                SaveFileDialog saveFileDialog = new SaveFileDialog();
+                saveFileDialog.Filter = "JPEG Image|*.jpg|PNG Image|*.png|BMP Image|*.bmp";
+                if (saveFileDialog.ShowDialog() == DialogResult.OK)
+                {
+                    img.Save(saveFileDialog.FileName);
+                }
+            }
+        }
+        public void Process(PictureBox pictureBox1, string fileName, CheckBox checkBox, ListBox listBox_found_objects, Label label_found_objects)
+        {
             const string cfg = "1.cfg";
             const string weights = "1_last_new2.weights";
             Net model = DnnInvoke.ReadNet(weights, cfg);
+            TypedReference p_model = __makeref(model);
             List<string> classes = File.ReadAllLines("classes.txt").ToList();
 
-        //List<string> detectedObjects = new List<string>();  //NEW
-        //List<string> deleteObjects = new List<string>();
-           // int imgDefaultSize = 416;
-           // Mat blob1 = null;
+            List<string> detected_objects = new List<string>();
+            TypedReference p_detected_objects = __makeref(detected_objects);
+            
 
-            if (Check_file_type(fileName) == 2)
+            if (Check_file_type(fileName) == FileType.FILE_VIDEO)
             {
-                Video_output(pictureBox1,fileName,checkBox,listBox1,classes,model);
+                Video_output(pictureBox1,fileName,checkBox,listBox_found_objects,classes, p_model);
             }
-            if (Check_file_type(fileName) == 1)
+            if (Check_file_type(fileName) == FileType.FILE_PHOTO)
             {
-                pictureBox1.Image = Image_processing(model, classes, fileName);
+                pictureBox1.Image = Image_processing(p_model, classes, fileName, p_detected_objects);
+                label_found_objects.Text = "Обнаружены:\n";
+                string detectedObjectsString = string.Join("\n", detected_objects);
+                label_found_objects.Text += detectedObjectsString;
+                listBox_found_objects.Items.AddRange(detected_objects.ToArray());
             }
-    }
+            if (Check_file_type(fileName) == FileType.FILE_ERROR)
+            {
+                label_found_objects.Text = "ОШИБКА:\nНеверный тип файла";
+            }
+        }
        
     }
 }
