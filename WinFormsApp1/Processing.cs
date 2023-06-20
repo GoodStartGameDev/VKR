@@ -21,6 +21,9 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
 using System.Drawing;
+using System.Media;
+
+using System.Speech.Synthesis;
 
 namespace WinFormsApp1
 {
@@ -32,6 +35,37 @@ namespace WinFormsApp1
     }
     class Processing
     {
+        private string Translate_to_rus(string name)
+        {
+            if (name == "pothole") return "яма";
+            if (name == "sign") return "знак пешeходного перехода";
+            if (name == "tram_sign") return "знак трамвая";
+            if (name == "bus_sign") return "знак автобуса";
+            if (name == "crosswalk") return "пешeходный переход";
+            if (name == "red") return "красный цвет светофора";
+            if (name == "green") return "зелёный цвет светофора";
+            if (name == "down") return "знак подземного перехода";
+            if (name == "up") return "знак надземного перехода";
+            if (name == "metro") return "метро";
+
+            return null;
+        }
+
+        private string Translate_to_eng(string name)
+        {
+            if (name == "яма") return "pothole";
+            if (name == "знак пешeходного перехода") return "sign";
+            if (name == "знак трамвая") return "tram_sign";
+            if (name == "знак автобуса") return "bus_sign";
+            if (name == "пешeходный переход") return "crosswalk";
+            if (name == "красный цвет светофора") return "red";
+            if (name == "зелёный цвет светофора") return "green";
+            if (name == "знак подземного перехода") return "down";
+            if (name == "знак надземного перехода") return "up";
+            if (name == "метро") return "metro";
+
+            return null;
+        }
         public static List<float[]> ArrayTo2DList(Array array)
         {
             System.Collections.IEnumerator enumerator = array.GetEnumerator();
@@ -79,14 +113,14 @@ namespace WinFormsApp1
             byte[] buffer;
             if (classes != null)
             {
-                if (listBox_found_objects.Items.Contains(classes))
+                if (listBox_found_objects.Items.Contains(Translate_to_rus(classes)))
                 {
                     fileStream = new FileStream(filePath, FileMode.Append);
                     buffer = System.Text.Encoding.UTF8.GetBytes($"!!Объект {classes} Удалён из списка\n"); // конвертируем строку в байты
                     fileStream.Write(buffer, 0, buffer.Length); // записываем байты в файл
                     fileStream.Close();
 
-                    listBox_found_objects.Items.Remove(classes);
+                    listBox_found_objects.Items.Remove(Translate_to_rus(classes));
                     Application.DoEvents();
                 }
             }
@@ -102,6 +136,7 @@ namespace WinFormsApp1
                 if (!listBox_found_objects.Items.Contains(classes))
                 {
                     listBox_found_objects.Items.Add(classes); // нет в списке - добавить
+                    SoundMessage(classes);
 
                     fileStream = new FileStream(filePath, FileMode.Append);
                     buffer = System.Text.Encoding.UTF8.GetBytes($"!Объект {classes} Добавлен в список\n"); // конвертируем строку в байты
@@ -126,6 +161,8 @@ namespace WinFormsApp1
             VideoCapture capture = new VideoCapture(fileName);
             TypedReference p_capture = __makeref(capture);
             Dictionary<string, int> fr = new Dictionary<string, int>();
+
+            TypedReference p_listBox_found_objects = __makeref(listBox_found_objects);
             checkBox.Checked = true;
             for (int i = 0; i < classes.Count(); i++)
             {
@@ -135,7 +172,7 @@ namespace WinFormsApp1
             while (checkBox.Checked)
             {
                 checkBox.Visible = true;
-                pictureBox1.Image = Video_processing(fr, p_capture, fileName, listBox_found_objects, classes, model);
+                pictureBox1.Image = Video_processing(fr, p_capture, fileName, p_listBox_found_objects, classes, model);
                 Application.DoEvents();
             }
             if (!checkBox.Checked)
@@ -189,7 +226,7 @@ namespace WinFormsApp1
             //return new Processing_variables { bboxes = __refvalue(bboxes, VectorOfRect), scores = __refvalue(scores, VectorOfFloat), indices = __refvalue(indices, VectorOfInt), idx = idx };
         }
 
-        unsafe private Bitmap Video_processing(Dictionary<string, int> fr, TypedReference capture, string fileName, ListBox listBox_found_objects, List<string> classes, TypedReference model)
+        unsafe private Bitmap Video_processing(Dictionary<string, int> fr, TypedReference capture, string fileName, TypedReference listBox_found_objects, List<string> classes, TypedReference model)
         {
 
             
@@ -229,7 +266,7 @@ namespace WinFormsApp1
 
                 for (int i = 0; i < classes.Count(); i++)
                 {
-                    Delete_from_listbox(Object_to_delete_from_listbox(classes[i], fr[classes[i]]), listBox_found_objects);
+                    Delete_from_listbox(Object_to_delete_from_listbox(classes[i], fr[classes[i]]), __refvalue(listBox_found_objects, ListBox));
                 }
 
                 // Read the next frame from the video
@@ -264,7 +301,7 @@ namespace WinFormsApp1
 
                     for (int j = 0; j < classes.Count(); j++)
                     {
-                        Add_to_listbox(Object_to_add_to_listbox(classes, indices, index, fr), listBox_found_objects);
+                        Add_to_listbox(Translate_to_rus(Object_to_add_to_listbox(classes, indices, index, fr)), __refvalue(listBox_found_objects, ListBox));
                     }
 
                 }
@@ -322,9 +359,9 @@ namespace WinFormsApp1
                 int index = idx[i];
                 var bbox = bboxes[index];
                 imgOutput.Draw(bbox, new Bgr(0, 255, 0), 3);
-               // CvInvoke.PutText(imgOutput, classes[indices[index]], new System.Drawing.Point(bbox.X, bbox.Y + 20),
-               //     FontFace.HersheySimplex, 0.7, new MCvScalar(0, 0, 255), 1);
-                __refvalue(p_detected_objects, List<string>).Add(classes[indices[index]]);
+                CvInvoke.PutText(imgOutput, classes[indices[index]], new System.Drawing.Point(bbox.X, bbox.Y + 20),
+                    FontFace.HersheySimplex, 0.7, new MCvScalar(0, 0, 255), 1);
+                __refvalue(p_detected_objects, List<string>).Add(Translate_to_rus(classes[indices[index]]));
             }
             imgOutput = imgOutput.Resize(782, 555, Inter.Cubic);
             return imgOutput.ToBitmap();
@@ -365,8 +402,18 @@ namespace WinFormsApp1
                 }
             }
         }
-        public void Process(PictureBox pictureBox1, string fileName, CheckBox checkBox, ListBox listBox_found_objects, Label label_found_objects)
+
+        private void SoundMessage(string text)
         {
+            //SoundPlayer soundPlayer= new SoundPlayer ("1.wav");
+            //soundPlayer.Play();
+            SpeechSynthesizer bot = new SpeechSynthesizer();
+           // bot.Speak("Обнаружено:");
+            if (text!=null) bot.Speak(text);
+        }
+        public void Process(PictureBox pictureBox1, string fileName, CheckBox checkBox, ListBox listBox_found_objects)
+        {
+            checkBox.Checked = false; Application.DoEvents();
             const string cfg = "1.cfg";
             const string weights = "1_last_new2.weights";
             Net model = DnnInvoke.ReadNet(weights, cfg);
@@ -383,15 +430,17 @@ namespace WinFormsApp1
             }
             if (Check_file_type(fileName) == FileType.FILE_PHOTO)
             {
+                listBox_found_objects.Items.Clear();
                 pictureBox1.Image = Image_processing(p_model, classes, fileName, p_detected_objects);
-                label_found_objects.Text = "Обнаружены:\n";
-                string detectedObjectsString = string.Join("\n", detected_objects);
-                label_found_objects.Text += detectedObjectsString;
                 listBox_found_objects.Items.AddRange(detected_objects.ToArray());
+                for (int i = 0; i < detected_objects.ToArray().Length; i++)
+                {
+                    SoundMessage(detected_objects.ToArray()[i]);
+                }
             }
             if (Check_file_type(fileName) == FileType.FILE_ERROR)
             {
-                label_found_objects.Text = "ОШИБКА:\nНеверный тип файла";
+                MessageBox.Show("ОШИБКА: Неверный тип файла");
             }
         }
        

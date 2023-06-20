@@ -43,7 +43,7 @@ namespace WinFormsApp1
 
         public void btn_Processing_Click(object sender, EventArgs e)
         {
-            processing_class.Process(pictureBox, fileName, checkBox_proccessing, listBox_found_objects, label_found_objects);
+            processing_class.Process(pictureBox, fileName, checkBox_proccessing, listBox_found_objects);
             //label_proccessing.Text = "YOLO DONE!";
         }
 
@@ -52,7 +52,7 @@ namespace WinFormsApp1
             fileName = importFile.Import_file();
             //processing_class.ShowImport(pictureBox1, fileName);
             label_file_imported.Text = "Imported: " + fileName;
-            label_proccessing.Text = "";
+            //label_proccessing.Text = "";
         }
 
         private void btn_cloud_import_Click(object sender, EventArgs e)

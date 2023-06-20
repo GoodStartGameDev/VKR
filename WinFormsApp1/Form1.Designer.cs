@@ -99,10 +99,11 @@ namespace WinFormsApp1
             // 
             this.label_proccessing.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label_proccessing.AutoSize = true;
-            this.label_proccessing.Location = new System.Drawing.Point(856, 122);
+            this.label_proccessing.Location = new System.Drawing.Point(832, 262);
             this.label_proccessing.Name = "label_proccessing";
-            this.label_proccessing.Size = new System.Drawing.Size(0, 20);
+            this.label_proccessing.Size = new System.Drawing.Size(156, 20);
             this.label_proccessing.TabIndex = 6;
+            this.label_proccessing.Text = "Найденные объекты:";
             // 
             // checkBox_proccessing
             // 
@@ -122,9 +123,9 @@ namespace WinFormsApp1
             this.listBox_found_objects.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.listBox_found_objects.FormattingEnabled = true;
             this.listBox_found_objects.ItemHeight = 20;
-            this.listBox_found_objects.Location = new System.Drawing.Point(840, 285);
+            this.listBox_found_objects.Location = new System.Drawing.Point(808, 285);
             this.listBox_found_objects.Name = "listBox_found_objects";
-            this.listBox_found_objects.Size = new System.Drawing.Size(150, 104);
+            this.listBox_found_objects.Size = new System.Drawing.Size(182, 104);
             this.listBox_found_objects.TabIndex = 11;
             // 
             // label_found_objects

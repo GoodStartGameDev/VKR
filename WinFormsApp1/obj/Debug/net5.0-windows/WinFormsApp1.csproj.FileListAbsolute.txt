@@ -130,3 +130,5 @@ C:\Users\Иван\Desktop\УЧЕБА\ДИПЛОМ\opencvc#\WinFormsApp1\VKR\WinF
 C:\Users\Иван\Desktop\УЧЕБА\ДИПЛОМ\opencvc#\WinFormsApp1\VKR\WinFormsApp1\obj\Debug\net5.0-windows\ref\WinFormsApp1.dll
 C:\Users\Иван\Desktop\УЧЕБА\ДИПЛОМ\opencvc#\WinFormsApp1\VKR\WinFormsApp1\obj\Debug\net5.0-windows\WinFormsApp1.pdb
 C:\Users\Иван\Desktop\УЧЕБА\ДИПЛОМ\opencvc#\WinFormsApp1\VKR\WinFormsApp1\obj\Debug\net5.0-windows\WinFormsApp1.genruntimeconfig.cache
+C:\Users\Иван\Desktop\УЧЕБА\ДИПЛОМ\opencvc#\WinFormsApp1\WinFormsApp1\bin\Debug\net5.0-windows\System.Speech.dll
+C:\Users\Иван\Desktop\УЧЕБА\ДИПЛОМ\opencvc#\WinFormsApp1\WinFormsApp1\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Speech.dll
