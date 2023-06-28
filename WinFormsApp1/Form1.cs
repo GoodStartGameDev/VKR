@@ -64,6 +64,11 @@ namespace WinFormsApp1
         {
             processing_class.NetInit();
         }
+
+        private void YOLO_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Environment.Exit(0);
+        }
     }
 }
     

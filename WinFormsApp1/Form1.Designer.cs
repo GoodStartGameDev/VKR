@@ -173,6 +173,7 @@ namespace WinFormsApp1
             this.Controls.Add(this.btn_Processing);
             this.Name = "YOLO";
             this.Text = "YOLO";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.YOLO_FormClosing);
             this.Load += new System.EventHandler(this.YOLO_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).EndInit();
             this.ResumeLayout(false);

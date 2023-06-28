@@ -324,7 +324,7 @@ namespace WinFormsApp1
         private void SoundMessage(string text)
         {
             SpeechSynthesizer bot = new SpeechSynthesizer();
-            if (text != null) bot.Speak(text);
+            if (text != null) bot.SpeakAsync(text);
         }
 
         public void NetInit()
