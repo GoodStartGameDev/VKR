@@ -1,0 +1,920 @@
+Process file: sign1.jpg
+	Num objects: 1
+	Class[0]: знак пешеходного перехода
+Process file: sign2.jpg
+	Num objects: 1
+	Class[0]: знак пешеходного перехода
+Process file: sign3.jpg
+	Num objects: 1
+	Class[0]: знак пешеходного перехода
+Process file: sign4.jpg
+	Num objects: 1
+	Class[0]: знак пешеходного перехода
+Process file: sign5.jpg
+	Num objects: 0
+Process file: sign6.jpg
+	Num objects: 1
+	Class[0]: знак пешеходного перехода
+Process file: sign7.jpg
+	Num objects: 1
+	Class[0]: знак пешеходного перехода
+Process file: sign8.jpg
+	Num objects: 2
+	Class[0]: знак пешеходного перехода
+	Class[1]: знак пешеходного перехода
+Process file: sign9.jpg
+	Num objects: 1
+	Class[0]: знак пешеходного перехода
+Process file: sign10.jpg
+	Num objects: 1
+	Class[0]: знак пешеходного перехода
+Process file: sign11.jpg
+	Num objects: 1
+	Class[0]: знак пешеходного перехода
+Process file: sign12.jpg
+	Num objects: 1
+	Class[0]: знак пешеходного перехода
+Process file: sign13.jpg
+	Num objects: 1
+	Class[0]: знак пешеходного перехода
+Process file: sign14.jpg
+	Num objects: 1
+	Class[0]: знак пешеходного перехода
+Process file: sign15.jpg
+	Num objects: 0
+Process file: sign16.jpg
+	Num objects: 1
+	Class[0]: знак пешеходного перехода
+Process file: sign17.jpg
+	Num objects: 3
+	Class[0]: знак пешеходного перехода
+	Class[1]: знак пешеходного перехода
+	Class[2]: пешeходный переход
+Process file: sign18.jpg
+	Num objects: 2
+	Class[0]: знак пешеходного перехода
+	Class[1]: знак пешеходного перехода
+Process file: sign19.jpg
+	Num objects: 1
+	Class[0]: знак пешеходного перехода
+Process file: sign20.jpg
+	Num objects: 1
+	Class[0]: знак пешеходного перехода
+Process file: sign21.jpg
+	Num objects: 3
+	Class[0]: знак пешеходного перехода
+	Class[1]: знак пешеходного перехода
+	Class[2]: пешeходный переход
+Process file: sign22.jpg
+	Num objects: 1
+	Class[0]: знак пешеходного перехода
+Process file: sign23.jpg
+	Num objects: 1
+	Class[0]: знак пешеходного перехода
+Process file: sign24.jpg
+	Num objects: 1
+	Class[0]: знак пешеходного перехода
+Process file: sign25.jpg
+	Num objects: 1
+	Class[0]: знак пешеходного перехода
+Process file: sign26.jpg
+	Num objects: 1
+	Class[0]: знак пешеходного перехода
+Process file: sign27.jpg
+	Num objects: 1
+	Class[0]: знак пешеходного перехода
+Process file: sign28.jpg
+	Num objects: 1
+	Class[0]: знак пешеходного перехода
+Process file: sign29.jpg
+	Num objects: 1
+	Class[0]: знак пешеходного перехода
+Process file: sign30.jpg
+	Num objects: 1
+	Class[0]: знак пешеходного перехода
+Process file: sign31.jpg
+	Num objects: 1
+	Class[0]: знак пешеходного перехода
+Process file: sign32.jpg
+	Num objects: 1
+	Class[0]: знак пешеходного перехода
+Process file: sign33.jpg
+	Num objects: 1
+	Class[0]: знак пешеходного перехода
+Process file: sign34.jpg
+	Num objects: 1
+	Class[0]: знак пешеходного перехода
+Process file: sign35.jpg
+	Num objects: 1
+	Class[0]: знак пешеходного перехода
+Process file: sign36.jpg
+	Num objects: 1
+	Class[0]: знак пешеходного перехода
+Process file: sign37.jpg
+	Num objects: 2
+	Class[0]: знак пешеходного перехода
+	Class[1]: знак пешеходного перехода
+Process file: sign38.jpg
+	Num objects: 0
+Process file: sign39.jpg
+	Num objects: 1
+	Class[0]: знак пешеходного перехода
+Process file: sign40.jpg
+	Num objects: 0
+Process file: sign41.jpg
+	Num objects: 0
+знак пешеходного перехода tests:42
+Success: 35
+Not found: 7
+Confidence: 0,8333333
+Process file: tram_sign1.jpg
+	Num objects: 1
+	Class[0]: знак трамвайной остановки
+Process file: tram_sign2.jpg
+	Num objects: 1
+	Class[0]: знак трамвайной остановки
+Process file: tram_sign3.jpg
+	Num objects: 1
+	Class[0]: знак трамвайной остановки
+Process file: tram_sign4.jpg
+	Num objects: 1
+	Class[0]: знак трамвайной остановки
+Process file: tram_sign5.jpg
+	Num objects: 1
+	Class[0]: знак трамвайной остановки
+Process file: tram_sign6.jpg
+	Num objects: 1
+	Class[0]: знак трамвайной остановки
+Process file: tram_sign7.jpg
+	Num objects: 1
+	Class[0]: знак трамвайной остановки
+Process file: tram_sign8.jpg
+	Num objects: 0
+Process file: tram_sign9.jpg
+	Num objects: 1
+	Class[0]: знак трамвайной остановки
+Process file: tram_sign10.jpg
+	Num objects: 1
+	Class[0]: знак трамвайной остановки
+Process file: tram_sign11.jpg
+	Num objects: 1
+	Class[0]: знак трамвайной остановки
+Process file: tram_sign12.jpg
+	Num objects: 1
+	Class[0]: знак трамвайной остановки
+Process file: tram_sign13.jpg
+	Num objects: 1
+	Class[0]: знак трамвайной остановки
+Process file: tram_sign14.jpg
+	Num objects: 1
+	Class[0]: знак трамвайной остановки
+Process file: tram_sign15.jpg
+	Num objects: 1
+	Class[0]: знак трамвайной остановки
+Process file: tram_sign16.jpg
+	Num objects: 1
+	Class[0]: знак трамвайной остановки
+Process file: tram_sign17.jpg
+	Num objects: 1
+	Class[0]: знак трамвайной остановки
+Process file: tram_sign18.jpg
+	Num objects: 1
+	Class[0]: знак трамвайной остановки
+Process file: tram_sign19.jpg
+	Num objects: 1
+	Class[0]: знак трамвайной остановки
+знак трамвайной остановки tests:20
+Success: 19
+Not found: 1
+Confidence: 0,95
+Process file: bus_sign1.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign2.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign3.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign4.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign5.jpg
+	Num objects: 1
+	Class[0]: знак пешеходного перехода
+Process file: bus_sign6.jpg
+	Num objects: 1
+	Class[0]: знак пешеходного перехода
+Process file: bus_sign7.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign8.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign9.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign10.jpg
+	Num objects: 1
+	Class[0]: знак пешеходного перехода
+Process file: bus_sign11.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign12.jpg
+	Num objects: 2
+	Class[0]: знак автобусной остановки
+	Class[1]: знак автобусной остановки
+Process file: bus_sign13.jpg
+	Num objects: 2
+	Class[0]: знак автобусной остановки
+	Class[1]: знак автобусной остановки
+Process file: bus_sign14.jpg
+	Num objects: 2
+	Class[0]: знак пешеходного перехода
+	Class[1]: знак автобусной остановки
+Process file: bus_sign15.jpg
+	Num objects: 2
+	Class[0]: знак автобусной остановки
+	Class[1]: знак пешеходного перехода
+Process file: bus_sign16.jpg
+	Num objects: 1
+	Class[0]: знак пешеходного перехода
+Process file: bus_sign17.jpg
+	Num objects: 1
+	Class[0]: знак трамвайной остановки
+Process file: bus_sign18.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign19.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign20.jpg
+	Num objects: 2
+	Class[0]: знак пешеходного перехода
+	Class[1]: знак автобусной остановки
+Process file: bus_sign21.jpg
+	Num objects: 2
+	Class[0]: знак пешеходного перехода
+	Class[1]: знак автобусной остановки
+Process file: bus_sign22.jpg
+	Num objects: 2
+	Class[0]: знак пешеходного перехода
+	Class[1]: знак автобусной остановки
+Process file: bus_sign23.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign24.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign25.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign26.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign27.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign28.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign29.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign30.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign31.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign32.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign33.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign34.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign35.jpg
+	Num objects: 1
+	Class[0]: знак пешеходного перехода
+Process file: bus_sign36.jpg
+	Num objects: 1
+	Class[0]: знак пешеходного перехода
+Process file: bus_sign37.jpg
+	Num objects: 1
+	Class[0]: знак пешеходного перехода
+Process file: bus_sign38.jpg
+	Num objects: 1
+	Class[0]: знак пешеходного перехода
+Process file: bus_sign39.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign40.jpg
+	Num objects: 1
+	Class[0]: знак пешеходного перехода
+Process file: bus_sign41.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign42.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign43.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign44.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign45.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign46.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign47.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign48.jpg
+	Num objects: 2
+	Class[0]: знак трамвайной остановки
+	Class[1]: знак автобусной остановки
+Process file: bus_sign49.jpg
+	Num objects: 1
+	Class[0]: знак пешеходного перехода
+Process file: bus_sign50.jpg
+	Num objects: 1
+	Class[0]: знак пешеходного перехода
+Process file: bus_sign51.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign52.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign53.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign54.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign55.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign56.jpg
+	Num objects: 0
+Process file: bus_sign57.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign58.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign59.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign60.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign61.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign62.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign63.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign64.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign65.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign66.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign67.jpg
+	Num objects: 0
+Process file: bus_sign68.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign69.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+знак автобусной остановки tests:70
+Success: 50
+Not found: 20
+Confidence: 0,71428573
+Process file: crosswalk1.jpg
+	Num objects: 0
+Process file: crosswalk2.jpg
+	Num objects: 0
+Process file: crosswalk3.jpg
+	Num objects: 0
+Process file: crosswalk4.jpg
+	Num objects: 0
+Process file: crosswalk5.jpg
+	Num objects: 0
+Process file: crosswalk6.jpg
+	Num objects: 0
+Process file: crosswalk7.jpg
+	Num objects: 0
+Process file: crosswalk8.jpg
+	Num objects: 0
+Process file: crosswalk9.jpg
+	Num objects: 0
+Process file: crosswalk10.jpg
+	Num objects: 0
+Process file: crosswalk11.jpg
+	Num objects: 0
+Process file: crosswalk12.jpg
+	Num objects: 0
+Process file: crosswalk13.jpg
+	Num objects: 0
+Process file: crosswalk14.jpg
+	Num objects: 1
+	Class[0]: красный цвет светофора
+Process file: crosswalk15.jpg
+	Num objects: 0
+Process file: crosswalk16.jpg
+	Num objects: 0
+Process file: crosswalk17.jpg
+	Num objects: 0
+Process file: crosswalk18.jpg
+	Num objects: 0
+Process file: crosswalk19.jpg
+	Num objects: 0
+Process file: crosswalk20.jpg
+	Num objects: 0
+Process file: crosswalk21.jpg
+	Num objects: 0
+Process file: crosswalk22.jpg
+	Num objects: 0
+Process file: crosswalk23.jpg
+	Num objects: 0
+Process file: crosswalk24.jpg
+	Num objects: 0
+Process file: crosswalk25.jpg
+	Num objects: 0
+Process file: crosswalk26.jpg
+	Num objects: 0
+Process file: crosswalk27.jpg
+	Num objects: 0
+Process file: crosswalk28.jpg
+	Num objects: 0
+Process file: crosswalk29.jpg
+	Num objects: 0
+Process file: crosswalk30.jpg
+	Num objects: 0
+Process file: crosswalk31.jpg
+	Num objects: 0
+Process file: crosswalk32.jpg
+	Num objects: 0
+Process file: crosswalk33.jpg
+	Num objects: 0
+Process file: crosswalk34.jpg
+	Num objects: 0
+Process file: crosswalk35.jpg
+	Num objects: 0
+Process file: crosswalk36.jpg
+	Num objects: 0
+Process file: crosswalk37.jpg
+	Num objects: 0
+Process file: crosswalk38.jpg
+	Num objects: 0
+Process file: crosswalk39.jpg
+	Num objects: 0
+Process file: crosswalk40.jpg
+	Num objects: 0
+Process file: crosswalk41.jpg
+	Num objects: 0
+Process file: crosswalk42.jpg
+	Num objects: 0
+Process file: crosswalk43.jpg
+	Num objects: 0
+Process file: crosswalk44.jpg
+	Num objects: 0
+Process file: crosswalk45.jpg
+	Num objects: 0
+Process file: crosswalk46.jpg
+	Num objects: 0
+Process file: crosswalk47.jpg
+	Num objects: 0
+Process file: crosswalk48.jpg
+	Num objects: 0
+Process file: crosswalk49.jpg
+	Num objects: 1
+	Class[0]: красный цвет светофора
+Process file: crosswalk50.jpg
+	Num objects: 0
+Process file: crosswalk51.jpg
+	Num objects: 0
+Process file: crosswalk52.jpg
+	Num objects: 0
+Process file: crosswalk53.jpg
+	Num objects: 0
+Process file: crosswalk54.jpg
+	Num objects: 0
+Process file: crosswalk55.jpg
+	Num objects: 0
+Process file: crosswalk56.jpg
+	Num objects: 0
+Process file: crosswalk57.jpg
+	Num objects: 0
+Process file: crosswalk58.jpg
+	Num objects: 0
+Process file: crosswalk59.jpg
+	Num objects: 0
+Process file: crosswalk60.jpg
+	Num objects: 0
+Process file: crosswalk61.jpg
+	Num objects: 0
+Process file: crosswalk62.jpg
+	Num objects: 0
+Process file: crosswalk63.jpg
+	Num objects: 0
+Process file: crosswalk64.jpg
+	Num objects: 0
+Process file: crosswalk65.jpg
+	Num objects: 0
+Process file: crosswalk66.jpg
+	Num objects: 0
+Process file: crosswalk67.jpg
+	Num objects: 0
+Process file: crosswalk68.jpg
+	Num objects: 0
+Process file: crosswalk69.jpg
+	Num objects: 0
+Process file: crosswalk70.jpg
+	Num objects: 0
+Process file: crosswalk71.jpg
+	Num objects: 0
+Process file: crosswalk72.jpg
+	Num objects: 0
+Process file: crosswalk73.jpg
+	Num objects: 0
+Process file: crosswalk74.jpg
+	Num objects: 0
+Process file: crosswalk75.jpg
+	Num objects: 0
+Process file: crosswalk76.jpg
+	Num objects: 0
+Process file: crosswalk77.jpg
+	Num objects: 0
+Process file: crosswalk78.jpg
+	Num objects: 1
+	Class[0]: зелёный цвет светофора
+Process file: crosswalk79.jpg
+	Num objects: 0
+Process file: crosswalk80.jpg
+	Num objects: 0
+Process file: crosswalk81.jpg
+	Num objects: 0
+Process file: crosswalk82.jpg
+	Num objects: 0
+Process file: crosswalk83.jpg
+	Num objects: 0
+Process file: crosswalk84.jpg
+	Num objects: 0
+Process file: crosswalk85.jpg
+	Num objects: 0
+Process file: crosswalk86.jpg
+	Num objects: 0
+Process file: crosswalk87.jpg
+	Num objects: 1
+	Class[0]: красный цвет светофора
+Process file: crosswalk88.jpg
+	Num objects: 0
+Process file: crosswalk89.jpg
+	Num objects: 0
+Process file: crosswalk90.jpg
+	Num objects: 0
+Process file: crosswalk91.jpg
+	Num objects: 0
+Process file: crosswalk92.jpg
+	Num objects: 0
+Process file: crosswalk93.jpg
+	Num objects: 0
+Process file: crosswalk94.jpg
+	Num objects: 0
+Process file: crosswalk95.jpg
+	Num objects: 0
+Process file: crosswalk96.jpg
+	Num objects: 0
+Process file: crosswalk97.jpg
+	Num objects: 0
+пешeходный переход tests:98
+Success: 1
+Not found: 97
+Confidence: 0,010204077
+Process file: red1.jpg
+	Num objects: 1
+	Class[0]: красный цвет светофора
+Process file: red2.jpg
+	Num objects: 1
+	Class[0]: красный цвет светофора
+Process file: red3.jpg
+	Num objects: 1
+	Class[0]: красный цвет светофора
+Process file: red4.jpg
+	Num objects: 1
+	Class[0]: красный цвет светофора
+Process file: red5.jpg
+	Num objects: 1
+	Class[0]: красный цвет светофора
+Process file: red6.jpg
+	Num objects: 1
+	Class[0]: красный цвет светофора
+Process file: red7.jpg
+	Num objects: 1
+	Class[0]: красный цвет светофора
+Process file: red8.jpg
+	Num objects: 1
+	Class[0]: красный цвет светофора
+Process file: red9.jpg
+	Num objects: 1
+	Class[0]: красный цвет светофора
+Process file: red10.jpg
+	Num objects: 1
+	Class[0]: красный цвет светофора
+Process file: red11.jpg
+	Num objects: 1
+	Class[0]: красный цвет светофора
+Process file: red12.jpg
+	Num objects: 1
+	Class[0]: красный цвет светофора
+Process file: red13.jpg
+	Num objects: 2
+	Class[0]: красный цвет светофора
+	Class[1]: красный цвет светофора
+Process file: red14.jpg
+	Num objects: 1
+	Class[0]: красный цвет светофора
+Process file: red15.jpg
+	Num objects: 1
+	Class[0]: красный цвет светофора
+Process file: red16.jpg
+	Num objects: 1
+	Class[0]: красный цвет светофора
+Process file: red17.jpg
+	Num objects: 1
+	Class[0]: красный цвет светофора
+Process file: red18.jpg
+	Num objects: 1
+	Class[0]: красный цвет светофора
+Process file: red19.jpg
+	Num objects: 1
+	Class[0]: красный цвет светофора
+красный цвет светофора tests:20
+Success: 20
+Not found: 0
+Confidence: 1
+Process file: green1.jpg
+	Num objects: 2
+	Class[0]: зелёный цвет светофора
+	Class[1]: зелёный цвет светофора
+Process file: green2.jpg
+	Num objects: 0
+Process file: green3.jpg
+	Num objects: 1
+	Class[0]: зелёный цвет светофора
+Process file: green4.jpg
+	Num objects: 1
+	Class[0]: зелёный цвет светофора
+Process file: green5.jpg
+	Num objects: 1
+	Class[0]: зелёный цвет светофора
+Process file: green6.jpg
+	Num objects: 1
+	Class[0]: зелёный цвет светофора
+Process file: green7.jpg
+	Num objects: 1
+	Class[0]: зелёный цвет светофора
+Process file: green8.jpg
+	Num objects: 1
+	Class[0]: зелёный цвет светофора
+Process file: green9.jpg
+	Num objects: 1
+	Class[0]: зелёный цвет светофора
+Process file: green10.jpg
+	Num objects: 1
+	Class[0]: зелёный цвет светофора
+Process file: green11.jpg
+	Num objects: 1
+	Class[0]: зелёный цвет светофора
+Process file: green12.jpg
+	Num objects: 1
+	Class[0]: зелёный цвет светофора
+Process file: green13.jpg
+	Num objects: 1
+	Class[0]: зелёный цвет светофора
+Process file: green14.jpg
+	Num objects: 1
+	Class[0]: зелёный цвет светофора
+Process file: green15.jpg
+	Num objects: 2
+	Class[0]: зелёный цвет светофора
+	Class[1]: зелёный цвет светофора
+Process file: green16.jpg
+	Num objects: 2
+	Class[0]: зелёный цвет светофора
+	Class[1]: знак пешеходного перехода
+Process file: green17.jpg
+	Num objects: 1
+	Class[0]: зелёный цвет светофора
+Process file: green18.jpg
+	Num objects: 0
+Process file: green19.jpg
+	Num objects: 1
+	Class[0]: зелёный цвет светофора
+зелёный цвет светофора tests:20
+Success: 17
+Not found: 3
+Confidence: 0,85
+Process file: down1.jpg
+	Num objects: 1
+	Class[0]: знак подземного перехода
+Process file: down2.jpg
+	Num objects: 1
+	Class[0]: знак подземного перехода
+Process file: down3.jpg
+	Num objects: 1
+	Class[0]: знак подземного перехода
+Process file: down4.jpg
+	Num objects: 1
+	Class[0]: знак подземного перехода
+Process file: down5.jpg
+	Num objects: 1
+	Class[0]: знак подземного перехода
+Process file: down6.jpg
+	Num objects: 2
+	Class[0]: знак подземного перехода
+	Class[1]: знак подземного перехода
+Process file: down7.jpg
+	Num objects: 1
+	Class[0]: знак подземного перехода
+Process file: down8.jpg
+	Num objects: 1
+	Class[0]: знак подземного перехода
+Process file: down9.jpg
+	Num objects: 1
+	Class[0]: знак подземного перехода
+Process file: down10.jpg
+	Num objects: 1
+	Class[0]: знак подземного перехода
+Process file: down11.jpg
+	Num objects: 1
+	Class[0]: знак подземного перехода
+Process file: down12.jpg
+	Num objects: 1
+	Class[0]: знак подземного перехода
+Process file: down13.jpg
+	Num objects: 2
+	Class[0]: яма
+	Class[1]: знак подземного перехода
+Process file: down14.jpg
+	Num objects: 1
+	Class[0]: знак подземного перехода
+Process file: down15.jpg
+	Num objects: 1
+	Class[0]: знак подземного перехода
+Process file: down16.jpg
+	Num objects: 1
+	Class[0]: знак подземного перехода
+Process file: down17.jpg
+	Num objects: 1
+	Class[0]: знак подземного перехода
+Process file: down18.jpg
+	Num objects: 1
+	Class[0]: знак подземного перехода
+Process file: down19.jpg
+	Num objects: 1
+	Class[0]: знак подземного перехода
+знак подземного перехода tests:20
+Success: 19
+Not found: 1
+Confidence: 0,95
+Process file: up1.jpg
+	Num objects: 1
+	Class[0]: знак надземного перехода
+Process file: up2.jpg
+	Num objects: 1
+	Class[0]: знак надземного перехода
+Process file: up3.jpg
+	Num objects: 1
+	Class[0]: знак надземного перехода
+Process file: up4.jpg
+	Num objects: 1
+	Class[0]: знак надземного перехода
+Process file: up5.jpg
+	Num objects: 1
+	Class[0]: знак надземного перехода
+Process file: up6.jpg
+	Num objects: 2
+	Class[0]: знак надземного перехода
+	Class[1]: знак надземного перехода
+Process file: up7.jpg
+	Num objects: 1
+	Class[0]: знак надземного перехода
+Process file: up8.jpg
+	Num objects: 1
+	Class[0]: знак надземного перехода
+Process file: up9.jpg
+	Num objects: 0
+Process file: up10.jpg
+	Num objects: 0
+Process file: up11.jpg
+	Num objects: 1
+	Class[0]: знак надземного перехода
+Process file: up12.jpg
+	Num objects: 1
+	Class[0]: знак подземного перехода
+Process file: up13.jpg
+	Num objects: 1
+	Class[0]: знак надземного перехода
+Process file: up14.jpg
+	Num objects: 1
+	Class[0]: знак подземного перехода
+Process file: up15.jpg
+	Num objects: 1
+	Class[0]: знак подземного перехода
+Process file: up16.jpg
+	Num objects: 1
+	Class[0]: знак надземного перехода
+Process file: up17.jpg
+	Num objects: 1
+	Class[0]: знак надземного перехода
+Process file: up18.jpg
+	Num objects: 1
+	Class[0]: знак надземного перехода
+знак надземного перехода tests:19
+Success: 14
+Not found: 5
+Confidence: 0,7368421
+Process file: metro1.jpg
+	Num objects: 1
+	Class[0]: метро
+Process file: metro2.jpg
+	Num objects: 1
+	Class[0]: метро
+Process file: metro3.jpg
+	Num objects: 1
+	Class[0]: метро
+Process file: metro4.jpg
+	Num objects: 0
+Process file: metro5.jpg
+	Num objects: 1
+	Class[0]: метро
+Process file: metro6.jpg
+	Num objects: 1
+	Class[0]: метро
+Process file: metro7.jpg
+	Num objects: 1
+	Class[0]: метро
+Process file: metro8.jpg
+	Num objects: 1
+	Class[0]: метро
+Process file: metro9.jpg
+	Num objects: 1
+	Class[0]: метро
+Process file: metro10.jpg
+	Num objects: 1
+	Class[0]: метро
+Process file: metro11.jpg
+	Num objects: 1
+	Class[0]: метро
+Process file: metro12.jpg
+	Num objects: 1
+	Class[0]: метро
+Process file: metro13.jpg
+	Num objects: 1
+	Class[0]: метро
+Process file: metro14.jpg
+	Num objects: 1
+	Class[0]: метро
+Process file: metro15.jpg
+	Num objects: 0
+Process file: metro16.jpg
+	Num objects: 1
+	Class[0]: метро
+Process file: metro17.jpg
+	Num objects: 1
+	Class[0]: метро
+Process file: metro18.jpg
+	Num objects: 1
+	Class[0]: метро
+Process file: metro19.jpg
+	Num objects: 0
+метро tests:20
+Success: 17
+Not found: 3
+Confidence: 0,85
+
+
+Debug Trace:
+Loading Open CV binary from default locations. Current directory: C:\VKR\WinFormsApp1\WinFormsAppTest\bin\Debug\net5.0-windows7.0; Additional load folder: C:\VKR\WinFormsApp1\WinFormsAppTest\bin\Debug\net5.0-windows7.0\runtimes\win-x64\native
+Found full path C:\VKR\WinFormsApp1\WinFormsAppTest\bin\Debug\net5.0-windows7.0\runtimes\win-x64\native\opencv_videoio_ffmpeg460_64.dll for opencv_videoio_ffmpeg460_64.dll. Trying to load it.
+LoadLibraryEx("C:\VKR\WinFormsApp1\WinFormsAppTest\bin\Debug\net5.0-windows7.0\runtimes\win-x64\native\opencv_videoio_ffmpeg460_64.dll", 0, 4352) successfully loaded library.
+opencv_videoio_ffmpeg460_64.dll loaded.
+Found full path C:\VKR\WinFormsApp1\WinFormsAppTest\bin\Debug\net5.0-windows7.0\runtimes\win-x64\native\cvextern.dll for cvextern.dll. Trying to load it.
+LoadLibraryEx("C:\VKR\WinFormsApp1\WinFormsAppTest\bin\Debug\net5.0-windows7.0\runtimes\win-x64\native\cvextern.dll", 0, 4352) successfully loaded library.
+cvextern.dll loaded.

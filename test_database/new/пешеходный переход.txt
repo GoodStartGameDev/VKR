@@ -1,0 +1,410 @@
+﻿ TestImageProcessing
+   Источник: UnitTest1.cs строка 40
+   Длительность: 12,4 с
+
+  Стандартный вывод: 
+Process file: crosswalk1.jpg
+	Num objects: 0
+Process file: crosswalk2.jpg
+	Num objects: 0
+Process file: crosswalk3.jpg
+	Num objects: 0
+Process file: crosswalk4.jpg
+	Num objects: 0
+Process file: crosswalk5.jpg
+	Num objects: 0
+Process file: crosswalk6.jpg
+	Num objects: 0
+Process file: crosswalk7.jpg
+	Num objects: 0
+Process file: crosswalk8.jpg
+	Num objects: 0
+Process file: crosswalk9.jpg
+	Num objects: 0
+Process file: crosswalk10.jpg
+	Num objects: 0
+Process file: crosswalk11.jpg
+	Num objects: 0
+Process file: crosswalk12.jpg
+	Num objects: 0
+Process file: crosswalk13.jpg
+	Num objects: 0
+Process file: crosswalk14.jpg
+	Num objects: 1
+	Class[0]: красный цвет светофора
+Process file: crosswalk15.jpg
+	Num objects: 0
+Process file: crosswalk16.jpg
+	Num objects: 0
+Process file: crosswalk17.jpg
+	Num objects: 0
+Process file: crosswalk18.jpg
+	Num objects: 0
+Process file: crosswalk19.jpg
+	Num objects: 0
+Process file: crosswalk20.jpg
+	Num objects: 0
+Process file: crosswalk21.jpg
+	Num objects: 0
+Process file: crosswalk22.jpg
+	Num objects: 0
+Process file: crosswalk23.jpg
+	Num objects: 0
+Process file: crosswalk24.jpg
+	Num objects: 0
+Process file: crosswalk25.jpg
+	Num objects: 0
+Process file: crosswalk26.jpg
+	Num objects: 0
+Process file: crosswalk27.jpg
+	Num objects: 0
+Process file: crosswalk28.jpg
+	Num objects: 0
+Process file: crosswalk29.jpg
+	Num objects: 0
+Process file: crosswalk30.jpg
+	Num objects: 0
+Process file: crosswalk31.jpg
+	Num objects: 0
+Process file: crosswalk32.jpg
+	Num objects: 0
+Process file: crosswalk33.jpg
+	Num objects: 0
+Process file: crosswalk34.jpg
+	Num objects: 0
+Process file: crosswalk35.jpg
+	Num objects: 0
+Process file: crosswalk36.jpg
+	Num objects: 0
+Process file: crosswalk37.jpg
+	Num objects: 0
+Process file: crosswalk38.jpg
+	Num objects: 0
+Process file: crosswalk39.jpg
+	Num objects: 0
+Process file: crosswalk40.jpg
+	Num objects: 0
+Process file: crosswalk41.jpg
+	Num objects: 0
+Process file: crosswalk42.jpg
+	Num objects: 0
+Process file: crosswalk43.jpg
+	Num objects: 0
+Process file: crosswalk44.jpg
+	Num objects: 0
+Process file: crosswalk45.jpg
+	Num objects: 0
+Process file: crosswalk46.jpg
+	Num objects: 0
+Process file: crosswalk47.jpg
+	Num objects: 0
+Process file: crosswalk48.jpg
+	Num objects: 0
+Process file: crosswalk49.jpg
+	Num objects: 1
+	Class[0]: красный цвет светофора
+Process file: crosswalk50.jpg
+	Num objects: 0
+Process file: crosswalk51.jpg
+	Num objects: 0
+Process file: crosswalk52.jpg
+	Num objects: 0
+Process file: crosswalk53.jpg
+	Num objects: 0
+Process file: crosswalk54.jpg
+	Num objects: 0
+Process file: crosswalk55.jpg
+	Num objects: 0
+Process file: crosswalk56.jpg
+	Num objects: 0
+Process file: crosswalk57.jpg
+	Num objects: 0
+Process file: crosswalk58.jpg
+	Num objects: 0
+Process file: crosswalk59.jpg
+	Num objects: 0
+Process file: crosswalk60.jpg
+	Num objects: 0
+Process file: crosswalk61.jpg
+	Num objects: 0
+Process file: crosswalk62.jpg
+	Num objects: 0
+Process file: crosswalk63.jpg
+	Num objects: 0
+Process file: crosswalk64.jpg
+	Num objects: 0
+Process file: crosswalk65.jpg
+	Num objects: 0
+Process file: crosswalk66.jpg
+	Num objects: 0
+Process file: crosswalk67.jpg
+	Num objects: 0
+Process file: crosswalk68.jpg
+	Num objects: 0
+Process file: crosswalk69.jpg
+	Num objects: 0
+Process file: crosswalk70.jpg
+	Num objects: 0
+Process file: crosswalk71.jpg
+	Num objects: 0
+Process file: crosswalk72.jpg
+	Num objects: 0
+Process file: crosswalk73.jpg
+	Num objects: 0
+Process file: crosswalk74.jpg
+	Num objects: 0
+Process file: crosswalk75.jpg
+	Num objects: 0
+Process file: crosswalk76.jpg
+	Num objects: 0
+Process file: crosswalk77.jpg
+	Num objects: 0
+Process file: crosswalk78.jpg
+	Num objects: 1
+	Class[0]: зелёный цвет светофора
+Process file: crosswalk79.jpg
+	Num objects: 0
+Process file: crosswalk80.jpg
+	Num objects: 0
+Process file: crosswalk81.jpg
+	Num objects: 0
+Process file: crosswalk82.jpg
+	Num objects: 0
+Process file: crosswalk83.jpg
+	Num objects: 0
+Process file: crosswalk84.jpg
+	Num objects: 0
+Process file: crosswalk85.jpg
+	Num objects: 0
+Process file: crosswalk86.jpg
+	Num objects: 0
+Process file: crosswalk87.jpg
+	Num objects: 1
+	Class[0]: красный цвет светофора
+Process file: crosswalk88.jpg
+	Num objects: 0
+Process file: crosswalk89.jpg
+	Num objects: 0
+Process file: crosswalk90.jpg
+	Num objects: 0
+Process file: crosswalk91.jpg
+	Num objects: 0
+Process file: crosswalk92.jpg
+	Num objects: 0
+Process file: crosswalk93.jpg
+	Num objects: 0
+Process file: crosswalk94.jpg
+	Num objects: 0
+Process file: crosswalk95.jpg
+	Num objects: 0
+Process file: crosswalk96.jpg
+	Num objects: 0
+Process file: crosswalk97.jpg
+	Num objects: 0
+Process file: crosswalk98.jpg
+	Num objects: 0
+Process file: crosswalk99.jpg
+	Num objects: 0
+Process file: crosswalk100.jpg
+	Num objects: 0
+Process file: crosswalk101.jpg
+	Num objects: 0
+Process file: crosswalk102.jpg
+	Num objects: 0
+Process file: crosswalk103.jpg
+	Num objects: 0
+Process file: crosswalk104.jpg
+	Num objects: 0
+Process file: crosswalk105.jpg
+	Num objects: 0
+Process file: crosswalk106.jpg
+	Num objects: 0
+Process file: crosswalk107.jpg
+	Num objects: 0
+Process file: crosswalk108.jpg
+	Num objects: 0
+Process file: crosswalk109.jpg
+	Num objects: 0
+Process file: crosswalk110.jpg
+	Num objects: 0
+Process file: crosswalk111.jpg
+	Num objects: 0
+Process file: crosswalk112.jpg
+	Num objects: 0
+Process file: crosswalk113.jpg
+	Num objects: 0
+Process file: crosswalk114.jpg
+	Num objects: 0
+Process file: crosswalk115.jpg
+	Num objects: 0
+Process file: crosswalk116.jpg
+	Num objects: 0
+Process file: crosswalk117.jpg
+	Num objects: 0
+Process file: crosswalk118.jpg
+	Num objects: 0
+Process file: crosswalk119.jpg
+	Num objects: 0
+Process file: crosswalk120.jpg
+	Num objects: 0
+Process file: crosswalk121.jpg
+	Num objects: 0
+Process file: crosswalk122.jpg
+	Num objects: 0
+Process file: crosswalk123.jpg
+	Num objects: 0
+Process file: crosswalk124.jpg
+	Num objects: 0
+Process file: crosswalk125.jpg
+	Num objects: 0
+Process file: crosswalk126.jpg
+	Num objects: 0
+Process file: crosswalk127.jpg
+	Num objects: 0
+Process file: crosswalk128.jpg
+	Num objects: 0
+Process file: crosswalk129.jpg
+	Num objects: 0
+Process file: crosswalk130.jpg
+	Num objects: 0
+Process file: crosswalk131.jpg
+	Num objects: 0
+Process file: crosswalk132.jpg
+	Num objects: 0
+Process file: crosswalk133.jpg
+	Num objects: 0
+Process file: crosswalk134.jpg
+	Num objects: 0
+Process file: crosswalk135.jpg
+	Num objects: 0
+Process file: crosswalk136.jpg
+	Num objects: 0
+Process file: crosswalk137.jpg
+	Num objects: 0
+Process file: crosswalk138.jpg
+	Num objects: 0
+Process file: crosswalk139.jpg
+	Num objects: 0
+Process file: crosswalk140.jpg
+	Num objects: 0
+Process file: crosswalk141.jpg
+	Num objects: 0
+Process file: crosswalk142.jpg
+	Num objects: 0
+Process file: crosswalk143.jpg
+	Num objects: 0
+Process file: crosswalk144.jpg
+	Num objects: 0
+Process file: crosswalk145.jpg
+	Num objects: 0
+Process file: crosswalk146.jpg
+	Num objects: 0
+Process file: crosswalk147.jpg
+	Num objects: 0
+Process file: crosswalk148.jpg
+	Num objects: 0
+Process file: crosswalk149.jpg
+	Num objects: 0
+Process file: crosswalk150.jpg
+	Num objects: 0
+Process file: crosswalk151.jpg
+	Num objects: 0
+Process file: crosswalk152.jpg
+	Num objects: 0
+Process file: crosswalk153.jpg
+	Num objects: 0
+Process file: crosswalk154.jpg
+	Num objects: 0
+Process file: crosswalk155.jpg
+	Num objects: 0
+Process file: crosswalk156.jpg
+	Num objects: 0
+Process file: crosswalk157.jpg
+	Num objects: 0
+Process file: crosswalk158.jpg
+	Num objects: 0
+Process file: crosswalk159.jpg
+	Num objects: 0
+Process file: crosswalk160.jpg
+	Num objects: 0
+Process file: crosswalk161.jpg
+	Num objects: 0
+Process file: crosswalk162.jpg
+	Num objects: 0
+Process file: crosswalk163.jpg
+	Num objects: 0
+Process file: crosswalk164.jpg
+	Num objects: 0
+Process file: crosswalk165.jpg
+	Num objects: 0
+Process file: crosswalk166.jpg
+	Num objects: 0
+Process file: crosswalk167.jpg
+	Num objects: 0
+Process file: crosswalk168.jpg
+	Num objects: 0
+Process file: crosswalk169.jpg
+	Num objects: 0
+Process file: crosswalk170.jpg
+	Num objects: 0
+Process file: crosswalk171.jpg
+	Num objects: 0
+Process file: crosswalk172.jpg
+	Num objects: 0
+Process file: crosswalk173.jpg
+	Num objects: 0
+Process file: crosswalk174.jpg
+	Num objects: 0
+Process file: crosswalk175.jpg
+	Num objects: 0
+Process file: crosswalk176.jpg
+	Num objects: 0
+Process file: crosswalk177.jpg
+	Num objects: 0
+Process file: crosswalk178.jpg
+	Num objects: 0
+Process file: crosswalk179.jpg
+	Num objects: 0
+Process file: crosswalk180.jpg
+	Num objects: 0
+Process file: crosswalk181.jpg
+	Num objects: 0
+Process file: crosswalk182.jpg
+	Num objects: 0
+Process file: crosswalk183.jpg
+	Num objects: 0
+Process file: crosswalk184.jpg
+	Num objects: 0
+Process file: crosswalk185.jpg
+	Num objects: 0
+Process file: crosswalk186.jpg
+	Num objects: 0
+Process file: crosswalk187.jpg
+	Num objects: 0
+Process file: crosswalk188.jpg
+	Num objects: 0
+Process file: crosswalk189.jpg
+	Num objects: 0
+Process file: crosswalk190.jpg
+	Num objects: 0
+Process file: crosswalk191.jpg
+	Num objects: 0
+Process file: crosswalk192.jpg
+	Num objects: 0
+Process file: crosswalk193.jpg
+	Num objects: 0
+Process file: crosswalk194.jpg
+	Num objects: 0
+Tests: 195
+Errors: 4
+Confidence: 0,9794872
+
+
+Debug Trace:
+Loading Open CV binary from default locations. Current directory: C:\VKR\WinFormsApp1\WinFormsAppTest\bin\Debug\net5.0-windows7.0; Additional load folder: C:\VKR\WinFormsApp1\WinFormsAppTest\bin\Debug\net5.0-windows7.0\runtimes\win-x64\native
+Found full path C:\VKR\WinFormsApp1\WinFormsAppTest\bin\Debug\net5.0-windows7.0\runtimes\win-x64\native\opencv_videoio_ffmpeg460_64.dll for opencv_videoio_ffmpeg460_64.dll. Trying to load it.
+LoadLibraryEx("C:\VKR\WinFormsApp1\WinFormsAppTest\bin\Debug\net5.0-windows7.0\runtimes\win-x64\native\opencv_videoio_ffmpeg460_64.dll", 0, 4352) successfully loaded library.
+opencv_videoio_ffmpeg460_64.dll loaded.
+Found full path C:\VKR\WinFormsApp1\WinFormsAppTest\bin\Debug\net5.0-windows7.0\runtimes\win-x64\native\cvextern.dll for cvextern.dll. Trying to load it.
+LoadLibraryEx("C:\VKR\WinFormsApp1\WinFormsAppTest\bin\Debug\net5.0-windows7.0\runtimes\win-x64\native\cvextern.dll", 0, 4352) successfully loaded library.
+cvextern.dll loaded.

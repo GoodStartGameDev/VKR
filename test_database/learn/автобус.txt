@@ -1,0 +1,1533 @@
+ TestImageProcessing
+   Источник: UnitTest1.cs строка 40
+   Длительность: 1,1 мин
+
+  Стандартный вывод: 
+Process file: bus_sign1.jpg
+	Num objects: 0
+Process file: bus_sign2.jpg
+	Num objects: 0
+Process file: bus_sign3.jpg
+	Num objects: 0
+Process file: bus_sign4.jpg
+	Num objects: 0
+Process file: bus_sign5.jpg
+	Num objects: 0
+Process file: bus_sign6.jpg
+	Num objects: 0
+Process file: bus_sign7.jpg
+	Num objects: 0
+Process file: bus_sign8.jpg
+	Num objects: 0
+Process file: bus_sign9.jpg
+	Num objects: 0
+Process file: bus_sign10.jpg
+	Num objects: 0
+Process file: bus_sign11.jpg
+	Num objects: 0
+Process file: bus_sign12.jpg
+	Num objects: 0
+Process file: bus_sign13.jpg
+	Num objects: 0
+Process file: bus_sign14.jpg
+	Num objects: 0
+Process file: bus_sign15.jpg
+	Num objects: 0
+Process file: bus_sign16.jpg
+	Num objects: 0
+Process file: bus_sign17.jpg
+	Num objects: 0
+Process file: bus_sign18.jpg
+	Num objects: 0
+Process file: bus_sign19.jpg
+	Num objects: 0
+Process file: bus_sign20.jpg
+	Num objects: 0
+Process file: bus_sign21.jpg
+	Num objects: 0
+Process file: bus_sign22.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign23.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign24.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign25.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign26.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign27.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign28.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign29.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign30.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign31.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign32.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign33.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign34.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign35.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign36.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign37.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign38.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign39.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign40.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign41.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign42.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign43.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign44.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign45.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign46.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign47.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign48.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign49.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign50.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign51.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign52.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign53.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign54.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign55.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign56.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign57.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign58.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign59.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign60.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign61.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign62.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign63.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign64.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign65.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign66.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign67.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign68.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign69.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign70.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign71.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign72.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign73.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign74.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign75.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign76.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign77.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign78.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign79.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign80.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign81.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign82.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign83.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign84.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign85.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign86.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign87.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign88.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign89.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign90.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign91.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign92.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign93.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign94.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign95.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign96.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign97.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign98.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign99.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign100.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign101.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign102.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign103.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign104.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign105.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign106.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign107.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign108.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign109.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign110.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign111.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign112.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign113.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign114.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign115.jpg
+	Num objects: 2
+	Class[0]: знак автобуса
+	Class[1]: знак пешeходного перехода
+Process file: bus_sign116.jpg
+	Num objects: 2
+	Class[0]: знак пешeходного перехода
+	Class[1]: знак автобуса
+Process file: bus_sign117.jpg
+	Num objects: 2
+	Class[0]: знак пешeходного перехода
+	Class[1]: знак автобуса
+Process file: bus_sign118.jpg
+	Num objects: 2
+	Class[0]: знак автобуса
+	Class[1]: знак пешeходного перехода
+Process file: bus_sign119.jpg
+	Num objects: 2
+	Class[0]: знак пешeходного перехода
+	Class[1]: знак автобуса
+Process file: bus_sign120.jpg
+	Num objects: 2
+	Class[0]: знак автобуса
+	Class[1]: знак пешeходного перехода
+Process file: bus_sign121.jpg
+	Num objects: 2
+	Class[0]: знак автобуса
+	Class[1]: знак пешeходного перехода
+Process file: bus_sign122.jpg
+	Num objects: 2
+	Class[0]: знак автобуса
+	Class[1]: знак пешeходного перехода
+Process file: bus_sign123.jpg
+	Num objects: 2
+	Class[0]: знак автобуса
+	Class[1]: знак пешeходного перехода
+Process file: bus_sign124.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign125.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign126.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign127.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign128.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign129.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign130.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign131.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign132.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign133.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign134.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign135.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign136.jpg
+	Num objects: 2
+	Class[0]: знак автобуса
+	Class[1]: знак пешeходного перехода
+Process file: bus_sign137.jpg
+	Num objects: 2
+	Class[0]: знак автобуса
+	Class[1]: знак пешeходного перехода
+Process file: bus_sign138.jpg
+	Num objects: 2
+	Class[0]: знак автобуса
+	Class[1]: знак пешeходного перехода
+Process file: bus_sign139.jpg
+	Num objects: 2
+	Class[0]: знак пешeходного перехода
+	Class[1]: знак автобуса
+Process file: bus_sign140.jpg
+	Num objects: 2
+	Class[0]: знак автобуса
+	Class[1]: знак пешeходного перехода
+Process file: bus_sign141.jpg
+	Num objects: 2
+	Class[0]: знак автобуса
+	Class[1]: знак пешeходного перехода
+Process file: bus_sign142.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign143.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign144.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign145.jpg
+	Num objects: 2
+	Class[0]: знак пешeходного перехода
+	Class[1]: знак автобуса
+Process file: bus_sign146.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign147.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign148.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign149.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign150.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign151.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign152.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign153.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign154.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign155.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign156.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign157.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign158.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign159.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign160.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign161.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign162.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign163.jpg
+	Num objects: 2
+	Class[0]: знак автобуса
+	Class[1]: знак пешeходного перехода
+Process file: bus_sign164.jpg
+	Num objects: 2
+	Class[0]: знак автобуса
+	Class[1]: знак пешeходного перехода
+Process file: bus_sign165.jpg
+	Num objects: 2
+	Class[0]: знак пешeходного перехода
+	Class[1]: знак автобуса
+Process file: bus_sign166.jpg
+	Num objects: 2
+	Class[0]: знак пешeходного перехода
+	Class[1]: знак автобуса
+Process file: bus_sign167.jpg
+	Num objects: 2
+	Class[0]: знак пешeходного перехода
+	Class[1]: знак автобуса
+Process file: bus_sign168.jpg
+	Num objects: 2
+	Class[0]: знак автобуса
+	Class[1]: знак пешeходного перехода
+Process file: bus_sign169.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign170.jpg
+	Num objects: 0
+Process file: bus_sign171.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign172.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign173.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign174.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign175.jpg
+	Num objects: 2
+	Class[0]: знак автобуса
+	Class[1]: знак пешeходного перехода
+Process file: bus_sign176.jpg
+	Num objects: 2
+	Class[0]: знак автобуса
+	Class[1]: знак пешeходного перехода
+Process file: bus_sign177.jpg
+	Num objects: 2
+	Class[0]: знак автобуса
+	Class[1]: знак пешeходного перехода
+Process file: bus_sign178.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign179.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign180.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign181.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign182.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign183.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign184.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign185.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign186.jpg
+	Num objects: 0
+Process file: bus_sign187.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign188.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign189.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign190.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign191.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign192.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign193.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign194.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign195.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign196.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign197.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign198.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign199.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign200.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign201.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign202.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign203.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign204.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign205.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign206.jpg
+	Num objects: 0
+Process file: bus_sign207.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign208.jpg
+	Num objects: 0
+Process file: bus_sign209.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign210.jpg
+	Num objects: 0
+Process file: bus_sign211.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign212.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign213.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign214.jpg
+	Num objects: 0
+Process file: bus_sign215.jpg
+	Num objects: 0
+Process file: bus_sign216.jpg
+	Num objects: 0
+Process file: bus_sign217.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign218.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign219.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign220.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign221.jpg
+	Num objects: 0
+Process file: bus_sign222.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign223.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign224.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign225.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign226.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign227.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign228.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign229.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign230.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign231.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign232.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign233.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign234.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign235.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign236.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign237.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign238.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign239.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign240.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign241.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign242.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign243.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign244.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign245.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign246.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign247.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign248.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign249.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign250.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign251.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign252.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign253.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign254.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign255.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign256.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign257.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign258.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign259.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign260.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign261.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign262.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign263.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign264.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign265.jpg
+	Num objects: 0
+Process file: bus_sign266.jpg
+	Num objects: 0
+Process file: bus_sign267.jpg
+	Num objects: 0
+Process file: bus_sign268.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign269.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign270.jpg
+	Num objects: 0
+Process file: bus_sign271.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign272.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign273.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign274.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign275.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign276.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign277.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign278.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign279.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign280.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign281.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign282.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign283.jpg
+	Num objects: 0
+Process file: bus_sign284.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign285.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign286.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign287.jpg
+	Num objects: 0
+Process file: bus_sign288.jpg
+	Num objects: 0
+Process file: bus_sign289.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign290.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign291.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign292.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign293.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign294.jpg
+	Num objects: 0
+Process file: bus_sign295.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign296.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign297.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign298.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign299.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign300.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign301.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign302.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign303.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign304.jpg
+	Num objects: 0
+Process file: bus_sign305.jpg
+	Num objects: 0
+Process file: bus_sign306.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign307.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign308.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign309.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign310.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign311.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign312.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign313.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign314.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign315.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign316.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign317.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign318.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign319.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign320.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign321.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign322.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign323.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign324.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign325.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign326.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign327.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign328.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign329.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign330.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign331.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign332.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign333.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign334.jpg
+	Num objects: 2
+	Class[0]: знак пешeходного перехода
+	Class[1]: знак автобуса
+Process file: bus_sign335.jpg
+	Num objects: 2
+	Class[0]: знак пешeходного перехода
+	Class[1]: знак автобуса
+Process file: bus_sign336.jpg
+	Num objects: 2
+	Class[0]: знак автобуса
+	Class[1]: знак пешeходного перехода
+Process file: bus_sign337.jpg
+	Num objects: 2
+	Class[0]: знак пешeходного перехода
+	Class[1]: знак автобуса
+Process file: bus_sign338.jpg
+	Num objects: 2
+	Class[0]: знак автобуса
+	Class[1]: знак пешeходного перехода
+Process file: bus_sign339.jpg
+	Num objects: 2
+	Class[0]: знак пешeходного перехода
+	Class[1]: знак автобуса
+Process file: bus_sign340.jpg
+	Num objects: 2
+	Class[0]: знак пешeходного перехода
+	Class[1]: знак автобуса
+Process file: bus_sign341.jpg
+	Num objects: 2
+	Class[0]: знак автобуса
+	Class[1]: знак пешeходного перехода
+Process file: bus_sign342.jpg
+	Num objects: 2
+	Class[0]: знак автобуса
+	Class[1]: знак пешeходного перехода
+Process file: bus_sign343.jpg
+	Num objects: 2
+	Class[0]: знак пешeходного перехода
+	Class[1]: знак автобуса
+Process file: bus_sign344.jpg
+	Num objects: 2
+	Class[0]: знак пешeходного перехода
+	Class[1]: знак автобуса
+Process file: bus_sign345.jpg
+	Num objects: 2
+	Class[0]: знак пешeходного перехода
+	Class[1]: знак автобуса
+Process file: bus_sign346.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign347.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign348.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign349.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign350.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign351.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign352.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign353.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign354.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign355.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign356.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign357.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign358.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign359.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign360.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign361.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign362.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign363.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign364.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign365.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign366.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign367.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign368.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign369.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign370.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign371.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign372.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign373.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign374.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign375.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign376.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign377.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign378.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign379.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign380.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign381.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign382.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign383.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign384.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign385.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign386.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign387.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign388.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign389.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign390.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign391.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign392.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign393.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign394.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign395.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign396.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign397.jpg
+	Num objects: 0
+Process file: bus_sign398.jpg
+	Num objects: 0
+Process file: bus_sign399.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign400.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign401.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign402.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign403.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign404.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign405.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign406.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign407.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign408.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign409.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign410.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign411.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign412.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign413.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign414.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign415.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign416.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign417.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign418.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign419.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign420.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign421.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign422.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign423.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign424.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign425.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign426.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign427.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign428.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign429.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign430.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign431.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign432.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign433.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign434.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign435.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign436.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign437.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign438.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign439.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign440.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign441.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign442.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign443.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign444.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign445.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign446.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign447.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign448.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign449.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign450.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign451.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign452.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign453.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign454.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign455.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign456.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign457.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign458.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign459.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign460.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign461.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign462.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign463.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign464.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign465.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign466.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign467.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign468.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign469.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign470.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign471.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign472.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign473.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign474.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign475.jpg
+	Num objects: 0
+Process file: bus_sign476.jpg
+	Num objects: 0
+Process file: bus_sign477.jpg
+	Num objects: 0
+Process file: bus_sign478.jpg
+	Num objects: 0
+Process file: bus_sign479.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign480.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign481.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign482.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign483.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign484.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign485.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign486.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign487.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign488.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign489.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign490.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign491.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign492.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign493.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign494.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign495.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign496.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign497.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign498.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign499.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign500.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign501.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign502.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign503.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign504.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: bus_sign505.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign506.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign507.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Process file: bus_sign508.jpg
+	Num objects: 1
+	Class[0]: знак автобуса
+Tests: 509
+Errors: 153
+Confidence: 0,6994106
+
+
+Debug Trace:
+Loading Open CV binary from default locations. Current directory: C:\VKR\WinFormsApp1\WinFormsAppTest\bin\Debug\net5.0-windows7.0; Additional load folder: C:\VKR\WinFormsApp1\WinFormsAppTest\bin\Debug\net5.0-windows7.0\runtimes\win-x64\native
+Found full path C:\VKR\WinFormsApp1\WinFormsAppTest\bin\Debug\net5.0-windows7.0\runtimes\win-x64\native\opencv_videoio_ffmpeg460_64.dll for opencv_videoio_ffmpeg460_64.dll. Trying to load it.
+LoadLibraryEx("C:\VKR\WinFormsApp1\WinFormsAppTest\bin\Debug\net5.0-windows7.0\runtimes\win-x64\native\opencv_videoio_ffmpeg460_64.dll", 0, 4352) successfully loaded library.
+opencv_videoio_ffmpeg460_64.dll loaded.
+Found full path C:\VKR\WinFormsApp1\WinFormsAppTest\bin\Debug\net5.0-windows7.0\runtimes\win-x64\native\cvextern.dll for cvextern.dll. Trying to load it.
+LoadLibraryEx("C:\VKR\WinFormsApp1\WinFormsAppTest\bin\Debug\net5.0-windows7.0\runtimes\win-x64\native\cvextern.dll", 0, 4352) successfully loaded library.
+cvextern.dll loaded.

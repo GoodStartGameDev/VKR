@@ -1,0 +1,74 @@
+﻿ TestImageProcessing
+   Источник: UnitTest1.cs строка 40
+   Длительность: 7,1 с
+
+  Стандартный вывод: 
+Process file: metro1.jpg
+	Num objects: 1
+	Class[0]: метро
+Process file: metro2.jpg
+	Num objects: 1
+	Class[0]: метро
+Process file: metro3.jpg
+	Num objects: 1
+	Class[0]: метро
+Process file: metro4.jpg
+	Num objects: 0
+Process file: metro5.jpg
+	Num objects: 1
+	Class[0]: метро
+Process file: metro6.jpg
+	Num objects: 1
+	Class[0]: метро
+Process file: metro7.jpg
+	Num objects: 1
+	Class[0]: метро
+Process file: metro8.jpg
+	Num objects: 1
+	Class[0]: метро
+Process file: metro9.jpg
+	Num objects: 1
+	Class[0]: метро
+Process file: metro10.jpg
+	Num objects: 1
+	Class[0]: метро
+Process file: metro11.jpg
+	Num objects: 1
+	Class[0]: метро
+Process file: metro12.jpg
+	Num objects: 1
+	Class[0]: метро
+Process file: metro13.jpg
+	Num objects: 1
+	Class[0]: метро
+Process file: metro14.jpg
+	Num objects: 1
+	Class[0]: метро
+Process file: metro15.jpg
+	Num objects: 0
+Process file: metro16.jpg
+	Num objects: 1
+	Class[0]: метро
+Process file: metro17.jpg
+	Num objects: 1
+	Class[0]: метро
+Process file: metro18.jpg
+	Num objects: 1
+	Class[0]: метро
+Process file: metro19.jpg
+	Num objects: 0
+Tests: 20
+Success: 20
+Not found: 0
+Confidence: 1
+
+
+Debug Trace:
+Loading Open CV binary from default locations. Current directory: C:\VKR\WinFormsApp1\WinFormsAppTest\bin\Debug\net5.0-windows7.0; Additional load folder: C:\VKR\WinFormsApp1\WinFormsAppTest\bin\Debug\net5.0-windows7.0\runtimes\win-x64\native
+Found full path C:\VKR\WinFormsApp1\WinFormsAppTest\bin\Debug\net5.0-windows7.0\runtimes\win-x64\native\opencv_videoio_ffmpeg460_64.dll for opencv_videoio_ffmpeg460_64.dll. Trying to load it.
+LoadLibraryEx("C:\VKR\WinFormsApp1\WinFormsAppTest\bin\Debug\net5.0-windows7.0\runtimes\win-x64\native\opencv_videoio_ffmpeg460_64.dll", 0, 4352) successfully loaded library.
+opencv_videoio_ffmpeg460_64.dll loaded.
+Found full path C:\VKR\WinFormsApp1\WinFormsAppTest\bin\Debug\net5.0-windows7.0\runtimes\win-x64\native\cvextern.dll for cvextern.dll. Trying to load it.
+LoadLibraryEx("C:\VKR\WinFormsApp1\WinFormsAppTest\bin\Debug\net5.0-windows7.0\runtimes\win-x64\native\cvextern.dll", 0, 4352) successfully loaded library.
+cvextern.dll loaded.
+

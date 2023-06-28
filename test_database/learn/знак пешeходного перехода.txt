@@ -1,0 +1,128 @@
+Process file: sign1.jpg
+	Num objects: 0
+Process file: sign2.jpg
+	Num objects: 2
+	Class[0]: знак пешeходного перехода
+	Class[1]: знак пешeходного перехода
+Process file: sign3.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: sign4.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: sign5.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: sign6.jpg
+	Num objects: 2
+	Class[0]: знак пешeходного перехода
+	Class[1]: знак пешeходного перехода
+Process file: sign7.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: sign8.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: sign9.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: sign10.jpg
+	Num objects: 0
+Process file: sign11.jpg
+	Num objects: 2
+	Class[0]: знак пешeходного перехода
+	Class[1]: знак пешeходного перехода
+Process file: sign12.jpg
+	Num objects: 0
+Process file: sign13.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: sign14.jpg
+	Num objects: 3
+	Class[0]: знак пешeходного перехода
+	Class[1]: знак пешeходного перехода
+	Class[2]: знак пешeходного перехода
+Process file: sign15.jpg
+	Num objects: 0
+Process file: sign16.jpg
+	Num objects: 2
+	Class[0]: знак пешeходного перехода
+	Class[1]: знак пешeходного перехода
+Process file: sign17.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: sign18.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: sign19.jpg
+	Num objects: 2
+	Class[0]: знак пешeходного перехода
+	Class[1]: знак пешeходного перехода
+Process file: sign20.jpg
+	Num objects: 0
+Process file: sign21.jpg
+	Num objects: 2
+	Class[0]: знак пешeходного перехода
+	Class[1]: знак пешeходного перехода
+Process file: sign22.jpg
+	Num objects: 2
+	Class[0]: знак пешeходного перехода
+	Class[1]: знак пешeходного перехода
+Process file: sign23.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: sign24.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: sign25.jpg
+	Num objects: 2
+	Class[0]: знак пешeходного перехода
+	Class[1]: знак пешeходного перехода
+Process file: sign26.jpg
+	Num objects: 2
+	Class[0]: знак пешeходного перехода
+	Class[1]: знак пешeходного перехода
+Process file: sign27.jpg
+	Num objects: 3
+	Class[0]: знак пешeходного перехода
+	Class[1]: знак пешeходного перехода
+	Class[2]: знак пешeходного перехода
+Process file: sign28.jpg
+	Num objects: 0
+Process file: sign29.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: sign30.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: sign31.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Process file: sign32.jpg
+	Num objects: 2
+	Class[0]: знак пешeходного перехода
+	Class[1]: знак пешeходного перехода
+Process file: sign33.jpg
+	Num objects: 0
+Process file: sign34.jpg
+	Num objects: 0
+Process file: sign35.jpg
+	Num objects: 0
+Process file: sign36.jpg
+	Num objects: 0
+Process file: sign37.jpg
+	Num objects: 0
+Process file: sign38.jpg
+	Num objects: 0
+Process file: sign39.jpg
+	Num objects: 0
+Process file: sign40.jpg
+	Num objects: 0
+Process file: sign41.jpg
+	Num objects: 0
+Process file: sign42.jpg
+	Num objects: 1
+	Class[0]: знак пешeходного перехода
+Tests: 43
+Errors: 15
+Confidence: 0,6511628

@@ -1,0 +1,232 @@
+﻿ TestImageProcessing
+   Источник: UnitTest1.cs строка 40
+   Длительность: 17,5 с
+
+  Стандартный вывод: 
+Process file: bus_sign1.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign2.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign3.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign4.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign5.jpg
+	Num objects: 1
+	Class[0]: знак пешеходного перехода
+Process file: bus_sign6.jpg
+	Num objects: 1
+	Class[0]: знак пешеходного перехода
+Process file: bus_sign7.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign8.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign9.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign10.jpg
+	Num objects: 1
+	Class[0]: знак пешеходного перехода
+Process file: bus_sign11.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign12.jpg
+	Num objects: 2
+	Class[0]: знак автобусной остановки
+	Class[1]: знак автобусной остановки
+Process file: bus_sign13.jpg
+	Num objects: 2
+	Class[0]: знак автобусной остановки
+	Class[1]: знак автобусной остановки
+Process file: bus_sign14.jpg
+	Num objects: 2
+	Class[0]: знак пешеходного перехода
+	Class[1]: знак автобусной остановки
+Process file: bus_sign15.jpg
+	Num objects: 2
+	Class[0]: знак автобусной остановки
+	Class[1]: знак пешеходного перехода
+Process file: bus_sign16.jpg
+	Num objects: 1
+	Class[0]: знак пешеходного перехода
+Process file: bus_sign17.jpg
+	Num objects: 1
+	Class[0]: знак трамвайной остановки
+Process file: bus_sign18.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign19.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign20.jpg
+	Num objects: 2
+	Class[0]: знак пешеходного перехода
+	Class[1]: знак автобусной остановки
+Process file: bus_sign21.jpg
+	Num objects: 2
+	Class[0]: знак пешеходного перехода
+	Class[1]: знак автобусной остановки
+Process file: bus_sign22.jpg
+	Num objects: 2
+	Class[0]: знак пешеходного перехода
+	Class[1]: знак автобусной остановки
+Process file: bus_sign23.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign24.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign25.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign26.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign27.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign28.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign29.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign30.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign31.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign32.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign33.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign34.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign35.jpg
+	Num objects: 1
+	Class[0]: знак пешеходного перехода
+Process file: bus_sign36.jpg
+	Num objects: 1
+	Class[0]: знак пешеходного перехода
+Process file: bus_sign37.jpg
+	Num objects: 1
+	Class[0]: знак пешеходного перехода
+Process file: bus_sign38.jpg
+	Num objects: 1
+	Class[0]: знак пешеходного перехода
+Process file: bus_sign39.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign40.jpg
+	Num objects: 1
+	Class[0]: знак пешеходного перехода
+Process file: bus_sign41.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign42.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign43.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign44.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign45.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign46.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign47.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign48.jpg
+	Num objects: 2
+	Class[0]: знак трамвайной остановки
+	Class[1]: знак автобусной остановки
+Process file: bus_sign49.jpg
+	Num objects: 1
+	Class[0]: знак пешеходного перехода
+Process file: bus_sign50.jpg
+	Num objects: 1
+	Class[0]: знак пешеходного перехода
+Process file: bus_sign51.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign52.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign53.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign54.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign55.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign56.jpg
+	Num objects: 0
+Process file: bus_sign57.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign58.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign59.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign60.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign61.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign62.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign63.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign64.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign65.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign66.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign67.jpg
+	Num objects: 0
+Process file: bus_sign68.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Process file: bus_sign69.jpg
+	Num objects: 1
+	Class[0]: знак автобусной остановки
+Tests: 70
+Success: 52
+Not found: 18
+Confidence: 0,7428571
+
+
+Debug Trace:
+Loading Open CV binary from default locations. Current directory: C:\VKR\WinFormsApp1\WinFormsAppTest\bin\Debug\net5.0-windows7.0; Additional load folder: C:\VKR\WinFormsApp1\WinFormsAppTest\bin\Debug\net5.0-windows7.0\runtimes\win-x64\native
+Found full path C:\VKR\WinFormsApp1\WinFormsAppTest\bin\Debug\net5.0-windows7.0\runtimes\win-x64\native\opencv_videoio_ffmpeg460_64.dll for opencv_videoio_ffmpeg460_64.dll. Trying to load it.
+LoadLibraryEx("C:\VKR\WinFormsApp1\WinFormsAppTest\bin\Debug\net5.0-windows7.0\runtimes\win-x64\native\opencv_videoio_ffmpeg460_64.dll", 0, 4352) successfully loaded library.
+opencv_videoio_ffmpeg460_64.dll loaded.
+Found full path C:\VKR\WinFormsApp1\WinFormsAppTest\bin\Debug\net5.0-windows7.0\runtimes\win-x64\native\cvextern.dll for cvextern.dll. Trying to load it.
+LoadLibraryEx("C:\VKR\WinFormsApp1\WinFormsAppTest\bin\Debug\net5.0-windows7.0\runtimes\win-x64\native\cvextern.dll", 0, 4352) successfully loaded library.
+cvextern.dll loaded.

@@ -37,9 +37,9 @@ namespace WinFormsApp1
             this.label_proccessing = new System.Windows.Forms.Label();
             this.checkBox_proccessing = new System.Windows.Forms.CheckBox();
             this.listBox_found_objects = new System.Windows.Forms.ListBox();
-            this.label_found_objects = new System.Windows.Forms.Label();
             this.label_download_from_cloud = new System.Windows.Forms.Label();
             this.button_save_processed_image = new System.Windows.Forms.Button();
+            this.textBox_cloud_import = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
             this.SuspendLayout();
             // 
@@ -79,7 +79,7 @@ namespace WinFormsApp1
             // btn_cloud_import
             // 
             this.btn_cloud_import.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.btn_cloud_import.Location = new System.Drawing.Point(856, 158);
+            this.btn_cloud_import.Location = new System.Drawing.Point(856, 118);
             this.btn_cloud_import.Name = "btn_cloud_import";
             this.btn_cloud_import.Size = new System.Drawing.Size(116, 54);
             this.btn_cloud_import.TabIndex = 4;
@@ -99,7 +99,7 @@ namespace WinFormsApp1
             // 
             this.label_proccessing.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label_proccessing.AutoSize = true;
-            this.label_proccessing.Location = new System.Drawing.Point(832, 262);
+            this.label_proccessing.Location = new System.Drawing.Point(806, 248);
             this.label_proccessing.Name = "label_proccessing";
             this.label_proccessing.Size = new System.Drawing.Size(156, 20);
             this.label_proccessing.TabIndex = 6;
@@ -123,25 +123,16 @@ namespace WinFormsApp1
             this.listBox_found_objects.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.listBox_found_objects.FormattingEnabled = true;
             this.listBox_found_objects.ItemHeight = 20;
-            this.listBox_found_objects.Location = new System.Drawing.Point(808, 285);
+            this.listBox_found_objects.Location = new System.Drawing.Point(806, 271);
             this.listBox_found_objects.Name = "listBox_found_objects";
-            this.listBox_found_objects.Size = new System.Drawing.Size(182, 104);
+            this.listBox_found_objects.Size = new System.Drawing.Size(182, 184);
             this.listBox_found_objects.TabIndex = 11;
-            // 
-            // label_found_objects
-            // 
-            this.label_found_objects.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.label_found_objects.AutoSize = true;
-            this.label_found_objects.Location = new System.Drawing.Point(832, 390);
-            this.label_found_objects.Name = "label_found_objects";
-            this.label_found_objects.Size = new System.Drawing.Size(0, 20);
-            this.label_found_objects.TabIndex = 12;
             // 
             // label_download_from_cloud
             // 
             this.label_download_from_cloud.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label_download_from_cloud.AutoSize = true;
-            this.label_download_from_cloud.Location = new System.Drawing.Point(808, 217);
+            this.label_download_from_cloud.Location = new System.Drawing.Point(806, 208);
             this.label_download_from_cloud.Name = "label_download_from_cloud";
             this.label_download_from_cloud.Size = new System.Drawing.Size(0, 20);
             this.label_download_from_cloud.TabIndex = 13;
@@ -157,14 +148,21 @@ namespace WinFormsApp1
             this.button_save_processed_image.UseVisualStyleBackColor = true;
             this.button_save_processed_image.Click += new System.EventHandler(this.button_save_processed_image_Click);
             // 
+            // textBox_cloud_import
+            // 
+            this.textBox_cloud_import.Location = new System.Drawing.Point(806, 178);
+            this.textBox_cloud_import.Name = "textBox_cloud_import";
+            this.textBox_cloud_import.Size = new System.Drawing.Size(182, 27);
+            this.textBox_cloud_import.TabIndex = 15;
+            // 
             // YOLO
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1002, 608);
+            this.Controls.Add(this.textBox_cloud_import);
             this.Controls.Add(this.button_save_processed_image);
             this.Controls.Add(this.label_download_from_cloud);
-            this.Controls.Add(this.label_found_objects);
             this.Controls.Add(this.listBox_found_objects);
             this.Controls.Add(this.checkBox_proccessing);
             this.Controls.Add(this.label_proccessing);
@@ -175,6 +173,7 @@ namespace WinFormsApp1
             this.Controls.Add(this.btn_Processing);
             this.Name = "YOLO";
             this.Text = "YOLO";
+            this.Load += new System.EventHandler(this.YOLO_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -191,9 +190,9 @@ namespace WinFormsApp1
         private System.Windows.Forms.Label label_proccessing;
         private System.Windows.Forms.CheckBox checkBox_proccessing;
         private System.Windows.Forms.ListBox listBox_found_objects;
-        private System.Windows.Forms.Label label_found_objects;
         private System.Windows.Forms.Label label_download_from_cloud;
         private System.Windows.Forms.Button button_save_processed_image;
+        private System.Windows.Forms.TextBox textBox_cloud_import;
     }
 }
 

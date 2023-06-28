@@ -1,0 +1,55 @@
+﻿ TestImageProcessing
+   Источник: UnitTest1.cs строка 40
+   Длительность: 2 с
+
+  Стандартный вывод: 
+Process file: up1.jpg
+	Num objects: 1
+	Class[0]: знак надземного перехода
+Process file: up2.jpg
+	Num objects: 1
+	Class[0]: знак надземного перехода
+Process file: up3.jpg
+	Num objects: 1
+	Class[0]: знак надземного перехода
+Process file: up4.jpg
+	Num objects: 1
+	Class[0]: знак надземного перехода
+Process file: up5.jpg
+	Num objects: 1
+	Class[0]: знак надземного перехода
+Process file: up6.jpg
+	Num objects: 1
+	Class[0]: знак надземного перехода
+Process file: up7.jpg
+	Num objects: 1
+	Class[0]: знак надземного перехода
+Process file: up8.jpg
+	Num objects: 1
+	Class[0]: знак надземного перехода
+Process file: up9.jpg
+	Num objects: 1
+	Class[0]: знак надземного перехода
+Process file: up10.jpg
+	Num objects: 1
+	Class[0]: знак надземного перехода
+Process file: up11.jpg
+	Num objects: 1
+	Class[0]: знак надземного перехода
+Process file: up12.jpg
+	Num objects: 1
+	Class[0]: знак надземного перехода
+Tests: 13
+Errors: 0
+Confidence: 1
+
+
+Debug Trace:
+Loading Open CV binary from default locations. Current directory: C:\VKR\WinFormsApp1\WinFormsAppTest\bin\Debug\net5.0-windows7.0; Additional load folder: C:\VKR\WinFormsApp1\WinFormsAppTest\bin\Debug\net5.0-windows7.0\runtimes\win-x64\native
+Found full path C:\VKR\WinFormsApp1\WinFormsAppTest\bin\Debug\net5.0-windows7.0\runtimes\win-x64\native\opencv_videoio_ffmpeg460_64.dll for opencv_videoio_ffmpeg460_64.dll. Trying to load it.
+LoadLibraryEx("C:\VKR\WinFormsApp1\WinFormsAppTest\bin\Debug\net5.0-windows7.0\runtimes\win-x64\native\opencv_videoio_ffmpeg460_64.dll", 0, 4352) successfully loaded library.
+opencv_videoio_ffmpeg460_64.dll loaded.
+Found full path C:\VKR\WinFormsApp1\WinFormsAppTest\bin\Debug\net5.0-windows7.0\runtimes\win-x64\native\cvextern.dll for cvextern.dll. Trying to load it.
+LoadLibraryEx("C:\VKR\WinFormsApp1\WinFormsAppTest\bin\Debug\net5.0-windows7.0\runtimes\win-x64\native\cvextern.dll", 0, 4352) successfully loaded library.
+cvextern.dll loaded.
+

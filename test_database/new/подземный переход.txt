@@ -1,0 +1,79 @@
+﻿ TestImageProcessing
+   Источник: UnitTest1.cs строка 40
+   Длительность: 6,8 с
+
+  Стандартный вывод: 
+Process file: down1.jpg
+	Num objects: 1
+	Class[0]: знак подземного перехода
+Process file: down2.jpg
+	Num objects: 1
+	Class[0]: знак подземного перехода
+Process file: down3.jpg
+	Num objects: 1
+	Class[0]: знак подземного перехода
+Process file: down4.jpg
+	Num objects: 1
+	Class[0]: знак подземного перехода
+Process file: down5.jpg
+	Num objects: 1
+	Class[0]: знак подземного перехода
+Process file: down6.jpg
+	Num objects: 2
+	Class[0]: знак подземного перехода
+	Class[1]: знак подземного перехода
+Process file: down7.jpg
+	Num objects: 1
+	Class[0]: знак подземного перехода
+Process file: down8.jpg
+	Num objects: 1
+	Class[0]: знак подземного перехода
+Process file: down9.jpg
+	Num objects: 1
+	Class[0]: знак подземного перехода
+Process file: down10.jpg
+	Num objects: 1
+	Class[0]: знак подземного перехода
+Process file: down11.jpg
+	Num objects: 1
+	Class[0]: знак подземного перехода
+Process file: down12.jpg
+	Num objects: 1
+	Class[0]: знак подземного перехода
+Process file: down13.jpg
+	Num objects: 2
+	Class[0]: яма
+	Class[1]: знак подземного перехода
+Process file: down14.jpg
+	Num objects: 1
+	Class[0]: знак подземного перехода
+Process file: down15.jpg
+	Num objects: 1
+	Class[0]: знак подземного перехода
+Process file: down16.jpg
+	Num objects: 1
+	Class[0]: знак подземного перехода
+Process file: down17.jpg
+	Num objects: 1
+	Class[0]: знак подземного перехода
+Process file: down18.jpg
+	Num objects: 1
+	Class[0]: знак подземного перехода
+Process file: down19.jpg
+	Num objects: 1
+	Class[0]: знак подземного перехода
+Tests: 20
+Success: 19
+Not found: 1
+Confidence: 0,95
+
+
+Debug Trace:
+Loading Open CV binary from default locations. Current directory: C:\VKR\WinFormsApp1\WinFormsAppTest\bin\Debug\net5.0-windows7.0; Additional load folder: C:\VKR\WinFormsApp1\WinFormsAppTest\bin\Debug\net5.0-windows7.0\runtimes\win-x64\native
+Found full path C:\VKR\WinFormsApp1\WinFormsAppTest\bin\Debug\net5.0-windows7.0\runtimes\win-x64\native\opencv_videoio_ffmpeg460_64.dll for opencv_videoio_ffmpeg460_64.dll. Trying to load it.
+LoadLibraryEx("C:\VKR\WinFormsApp1\WinFormsAppTest\bin\Debug\net5.0-windows7.0\runtimes\win-x64\native\opencv_videoio_ffmpeg460_64.dll", 0, 4352) successfully loaded library.
+opencv_videoio_ffmpeg460_64.dll loaded.
+Found full path C:\VKR\WinFormsApp1\WinFormsAppTest\bin\Debug\net5.0-windows7.0\runtimes\win-x64\native\cvextern.dll for cvextern.dll. Trying to load it.
+LoadLibraryEx("C:\VKR\WinFormsApp1\WinFormsAppTest\bin\Debug\net5.0-windows7.0\runtimes\win-x64\native\cvextern.dll", 0, 4352) successfully loaded library.
+cvextern.dll loaded.
+

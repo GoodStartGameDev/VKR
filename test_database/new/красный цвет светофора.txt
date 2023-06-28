@@ -1,0 +1,78 @@
+﻿ TestImageProcessing
+   Источник: UnitTest1.cs строка 40
+   Длительность: 6,4 с
+
+  Стандартный вывод: 
+Process file: red1.jpg
+	Num objects: 1
+	Class[0]: красный цвет светофора
+Process file: red2.jpg
+	Num objects: 1
+	Class[0]: красный цвет светофора
+Process file: red3.jpg
+	Num objects: 1
+	Class[0]: красный цвет светофора
+Process file: red4.jpg
+	Num objects: 1
+	Class[0]: красный цвет светофора
+Process file: red5.jpg
+	Num objects: 1
+	Class[0]: красный цвет светофора
+Process file: red6.jpg
+	Num objects: 1
+	Class[0]: красный цвет светофора
+Process file: red7.jpg
+	Num objects: 1
+	Class[0]: красный цвет светофора
+Process file: red8.jpg
+	Num objects: 1
+	Class[0]: красный цвет светофора
+Process file: red9.jpg
+	Num objects: 1
+	Class[0]: красный цвет светофора
+Process file: red10.jpg
+	Num objects: 1
+	Class[0]: красный цвет светофора
+Process file: red11.jpg
+	Num objects: 1
+	Class[0]: красный цвет светофора
+Process file: red12.jpg
+	Num objects: 1
+	Class[0]: красный цвет светофора
+Process file: red13.jpg
+	Num objects: 2
+	Class[0]: красный цвет светофора
+	Class[1]: красный цвет светофора
+Process file: red14.jpg
+	Num objects: 1
+	Class[0]: красный цвет светофора
+Process file: red15.jpg
+	Num objects: 1
+	Class[0]: красный цвет светофора
+Process file: red16.jpg
+	Num objects: 1
+	Class[0]: красный цвет светофора
+Process file: red17.jpg
+	Num objects: 1
+	Class[0]: красный цвет светофора
+Process file: red18.jpg
+	Num objects: 1
+	Class[0]: красный цвет светофора
+Process file: red19.jpg
+	Num objects: 1
+	Class[0]: красный цвет светофора
+Tests: 20
+Success: 20
+Not found: 0
+Confidence: 1
+
+
+Debug Trace:
+Loading Open CV binary from default locations. Current directory: C:\VKR\WinFormsApp1\WinFormsAppTest\bin\Debug\net5.0-windows7.0; Additional load folder: C:\VKR\WinFormsApp1\WinFormsAppTest\bin\Debug\net5.0-windows7.0\runtimes\win-x64\native
+Found full path C:\VKR\WinFormsApp1\WinFormsAppTest\bin\Debug\net5.0-windows7.0\runtimes\win-x64\native\opencv_videoio_ffmpeg460_64.dll for opencv_videoio_ffmpeg460_64.dll. Trying to load it.
+LoadLibraryEx("C:\VKR\WinFormsApp1\WinFormsAppTest\bin\Debug\net5.0-windows7.0\runtimes\win-x64\native\opencv_videoio_ffmpeg460_64.dll", 0, 4352) successfully loaded library.
+opencv_videoio_ffmpeg460_64.dll loaded.
+Found full path C:\VKR\WinFormsApp1\WinFormsAppTest\bin\Debug\net5.0-windows7.0\runtimes\win-x64\native\cvextern.dll for cvextern.dll. Trying to load it.
+LoadLibraryEx("C:\VKR\WinFormsApp1\WinFormsAppTest\bin\Debug\net5.0-windows7.0\runtimes\win-x64\native\cvextern.dll", 0, 4352) successfully loaded library.
+cvextern.dll loaded.
+

@@ -1,0 +1,99 @@
+﻿ TestImageProcessing
+   Источник: UnitTest1.cs строка 40
+   Длительность: 3,4 с
+
+  Стандартный вывод: 
+Process file: metro1.jpg
+	Num objects: 3
+	Class[0]: знак автобуса
+	Class[1]: метро
+	Class[2]: метро
+Process file: metro2.jpg
+	Num objects: 3
+	Class[0]: знак подземного перехода
+	Class[1]: метро
+	Class[2]: метро
+Process file: metro3.jpg
+	Num objects: 2
+	Class[0]: метро
+	Class[1]: знак подземного перехода
+Process file: metro4.jpg
+	Num objects: 1
+	Class[0]: метро
+Process file: metro5.jpg
+	Num objects: 1
+	Class[0]: метро
+Process file: metro6.jpg
+	Num objects: 1
+	Class[0]: метро
+Process file: metro7.jpg
+	Num objects: 2
+	Class[0]: метро
+	Class[1]: метро
+Process file: metro8.jpg
+	Num objects: 1
+	Class[0]: метро
+Process file: metro9.jpg
+	Num objects: 2
+	Class[0]: метро
+	Class[1]: метро
+Process file: metro10.jpg
+	Num objects: 1
+	Class[0]: метро
+Process file: metro11.jpg
+	Num objects: 1
+	Class[0]: метро
+Process file: metro12.jpg
+	Num objects: 1
+	Class[0]: метро
+Process file: metro13.jpg
+	Num objects: 3
+	Class[0]: метро
+	Class[1]: метро
+	Class[2]: метро
+Process file: metro14.jpg
+	Num objects: 2
+	Class[0]: метро
+	Class[1]: метро
+Process file: metro15.jpg
+	Num objects: 1
+	Class[0]: метро
+Process file: metro16.jpg
+	Num objects: 5
+	Class[0]: метро
+	Class[1]: метро
+	Class[2]: метро
+	Class[3]: метро
+	Class[4]: метро
+Process file: metro17.jpg
+	Num objects: 1
+	Class[0]: метро
+Process file: metro18.jpg
+	Num objects: 1
+	Class[0]: метро
+Process file: metro19.jpg
+	Num objects: 1
+	Class[0]: метро
+Process file: metro20.jpg
+	Num objects: 1
+	Class[0]: метро
+Process file: metro21.jpg
+	Num objects: 1
+	Class[0]: метро
+Process file: metro22.jpg
+	Num objects: 1
+	Class[0]: метро
+Tests: 23
+Errors: 3
+Confidence: 0,86956525
+
+
+Debug Trace:
+Loading Open CV binary from default locations. Current directory: C:\VKR\WinFormsApp1\WinFormsAppTest\bin\Debug\net5.0-windows7.0; Additional load folder: C:\VKR\WinFormsApp1\WinFormsAppTest\bin\Debug\net5.0-windows7.0\runtimes\win-x64\native
+Found full path C:\VKR\WinFormsApp1\WinFormsAppTest\bin\Debug\net5.0-windows7.0\runtimes\win-x64\native\opencv_videoio_ffmpeg460_64.dll for opencv_videoio_ffmpeg460_64.dll. Trying to load it.
+LoadLibraryEx("C:\VKR\WinFormsApp1\WinFormsAppTest\bin\Debug\net5.0-windows7.0\runtimes\win-x64\native\opencv_videoio_ffmpeg460_64.dll", 0, 4352) successfully loaded library.
+opencv_videoio_ffmpeg460_64.dll loaded.
+Found full path C:\VKR\WinFormsApp1\WinFormsAppTest\bin\Debug\net5.0-windows7.0\runtimes\win-x64\native\cvextern.dll for cvextern.dll. Trying to load it.
+LoadLibraryEx("C:\VKR\WinFormsApp1\WinFormsAppTest\bin\Debug\net5.0-windows7.0\runtimes\win-x64\native\cvextern.dll", 0, 4352) successfully loaded library.
+cvextern.dll loaded.
+

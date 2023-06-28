@@ -1,0 +1,6 @@
+C:\VKR\WinFormsApp1\WinFormsAppTest\bin\Debug\net5.0-windows\CoverletSourceRootsMapping_WinFormsAppTest
+C:\VKR\WinFormsApp1\WinFormsAppTest\obj\Debug\net5.0-windows\WinFormsAppTest.csproj.AssemblyReference.cache
+C:\VKR\WinFormsApp1\WinFormsAppTest\obj\Debug\net5.0-windows\WinFormsAppTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\VKR\WinFormsApp1\WinFormsAppTest\obj\Debug\net5.0-windows\WinFormsAppTest.AssemblyInfoInputs.cache
+C:\VKR\WinFormsApp1\WinFormsAppTest\obj\Debug\net5.0-windows\WinFormsAppTest.AssemblyInfo.cs
+C:\VKR\WinFormsApp1\WinFormsAppTest\obj\Debug\net5.0-windows\WinFormsAppTest.csproj.CoreCompileInputs.cache
