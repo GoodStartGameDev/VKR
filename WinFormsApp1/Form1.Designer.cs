@@ -150,6 +150,7 @@ namespace WinFormsApp1
             // 
             // textBox_cloud_import
             // 
+            this.textBox_cloud_import.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.textBox_cloud_import.Location = new System.Drawing.Point(806, 178);
             this.textBox_cloud_import.Name = "textBox_cloud_import";
             this.textBox_cloud_import.Size = new System.Drawing.Size(182, 27);

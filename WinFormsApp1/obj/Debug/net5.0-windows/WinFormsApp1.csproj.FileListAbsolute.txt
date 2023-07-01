@@ -200,3 +200,6 @@ C:\VKR\WinFormsApp1\WinFormsApp1\obj\Debug\net5.0-windows\WinFormsApp1.dll
 C:\VKR\WinFormsApp1\WinFormsApp1\obj\Debug\net5.0-windows\ref\WinFormsApp1.dll
 C:\VKR\WinFormsApp1\WinFormsApp1\obj\Debug\net5.0-windows\WinFormsApp1.pdb
 C:\VKR\WinFormsApp1\WinFormsApp1\obj\Debug\net5.0-windows\WinFormsApp1.genruntimeconfig.cache
+C:\VKR\WinFormsApp1\WinFormsApp1\bin\Debug\net5.0-windows\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\VKR\WinFormsApp1\WinFormsApp1\bin\Debug\net5.0-windows\Microsoft.Threading.Tasks.Extensions.dll
+C:\VKR\WinFormsApp1\WinFormsApp1\bin\Debug\net5.0-windows\Microsoft.Threading.Tasks.dll

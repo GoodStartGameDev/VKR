@@ -72,6 +72,10 @@
               "target": "Package",
               "version": "[1.60.0.2986, )"
             },
+            "Microsoft.Bcl.Async": {
+              "target": "Package",
+              "version": "[1.0.168, )"
+            },
             "System.Speech": {
               "target": "Package",
               "version": "[5.0.0, )"

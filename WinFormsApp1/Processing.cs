@@ -25,8 +25,49 @@ using System.Media;
 
 using System.Speech.Synthesis;
 
+
 namespace WinFormsApp1
 {
+    public class SpeechQueue
+    {
+        private SpeechSynthesizer synthesizer;
+        private Queue<string> messageQueue;
+
+        public SpeechQueue()
+        {
+            synthesizer = new SpeechSynthesizer();
+            messageQueue = new Queue<string>();
+            synthesizer.SpeakCompleted += Synthesizer_SpeakCompleted;
+        }
+
+        public void EnqueueMessage(string message)
+        {
+            if (!string.IsNullOrEmpty(message))
+            {
+                messageQueue.Enqueue(message);
+                if (messageQueue.Count == 1)
+                {
+                    SpeakNextMessage();
+                }
+            }
+        }
+
+        private void Synthesizer_SpeakCompleted(object sender, SpeakCompletedEventArgs e)
+        {
+            messageQueue.Dequeue();
+            if (messageQueue.Count > 0)
+            {
+                SpeakNextMessage();
+            }
+        }
+
+        private void SpeakNextMessage()
+        {
+            string nextMessage = messageQueue.Peek();
+            synthesizer.SpeakAsync(nextMessage);
+        }
+    }
+
     public enum FileType : byte
     {
         FILE_ERROR = 0,
@@ -109,6 +150,7 @@ namespace WinFormsApp1
             }
         }
 
+        SpeechQueue speechQueue = new SpeechQueue();
         private void Add_to_listbox(string classes, ListBox listBox_found_objects)
         {
             if (classes != null)
@@ -116,7 +158,8 @@ namespace WinFormsApp1
                 if (!listBox_found_objects.Items.Contains(classes))
                 {
                     listBox_found_objects.Items.Add(classes); // нет в списке - добавить
-                    SoundMessage(classes);
+                    speechQueue.EnqueueMessage(classes);
+                    //SoundMessageAsync(classes);
                 }
             }
         }
@@ -178,7 +221,7 @@ namespace WinFormsApp1
                     var classId = rowsscores.ToList().IndexOf(rowsscores.Max());
                     var confidence = rowsscores[classId];
 
-                    if (confidence > 0.2f)
+                    if (confidence > 0.3f)
                     {
                         var center_x = (int)(row[0] * __refvalue(img, Image<Bgr, byte>).Width);
                         var center_y = (int)(row[1] * __refvalue(img, Image<Bgr, byte>).Height);
@@ -321,7 +364,7 @@ namespace WinFormsApp1
             }
         }
 
-        private void SoundMessage(string text)
+        private void SoundMessageAsync(string text)
         {
             SpeechSynthesizer bot = new SpeechSynthesizer();
             if (text != null) bot.SpeakAsync(text);
@@ -351,9 +394,10 @@ namespace WinFormsApp1
                 pictureBox1.Image = Image_processing(this.model, this.classes, fileName, p_detected_objects);
                 Application.DoEvents();
                 listBox_found_objects.Items.AddRange(detected_objects.ToArray());
+                SpeechQueue speechQueue = new SpeechQueue();
                 for (int i = 0; i < detected_objects.ToArray().Length; i++)
                 {
-                    SoundMessage(detected_objects.ToArray()[i]);
+                    speechQueue.EnqueueMessage(detected_objects.ToArray()[i]);
                 }
             }
             if (Check_file_type(fileName) == FileType.FILE_ERROR)

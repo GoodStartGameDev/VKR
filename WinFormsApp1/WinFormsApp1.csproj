@@ -18,6 +18,7 @@
     <PackageReference Include="Google.Apis" Version="1.60.0" />
     <PackageReference Include="Google.Apis.Auth" Version="1.60.0" />
     <PackageReference Include="Google.Apis.Drive.v3" Version="1.60.0.2986" />
+    <PackageReference Include="Microsoft.Bcl.Async" Version="1.0.168" />
     <PackageReference Include="System.Speech" Version="5.0.0" />
     <PackageReference Include="YandexDiskNET" Version="1.0.7" />
   </ItemGroup>
